@@ -139,7 +139,7 @@
   </variablelist>
  </sect1>
 
- 
+
  <sect1 xml:id="sec.add-ons.installation">
   <title>Installieren von Modulen und Erweiterungen über Online-Kanäle</title>
 
@@ -328,7 +328,7 @@
   </procedure>
  </sect1>
  <sect1 xml:id="sec.add-ons.sdk">
-  <title>SUSE-Softwareentwicklungskit (SDK) <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></title><indexterm>
+  <title>SUSE-Softwareentwicklungskit (SDK) <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></title><indexterm>
 
   <primary> Software</primary>
 
@@ -336,10 +336,10 @@
 
   <tertiary> SUSE SDK</tertiary></indexterm><indexterm>
 
-  <primary>   SUSE SDK</primary></indexterm> 
+  <primary>   SUSE SDK</primary></indexterm>
 
   <para>
-   Das SUSE-Softwareentwicklungskit<phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> ist eine Erweiterung für SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>. Es ist ein vollständiges Toolkit für die Anwendungsbereitstellung. Das SUSE-SDK <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> stellt dabei ein umfassendes Entwicklungssystem bereit: Dieses SDK enthält sämtliche Open-Source-Werkzeuge, mit denen das SUSE Linux Enterprise Server-Produkt erstellt wurde. Als Entwickler, unabhängiger Softwarehersteller (ISV) oder unabhängiger Hardwarehersteller (IHV) stehen Ihnen somit alle Tools zur Verfügung, die Sie zum Portieren von Anwendungen auf sämtliche Plattformen benötigen, die von SUSE Linux Enterprise Desktop und SUSE Linux Enterprise Server unterstützt werden.
+   Das SUSE-Softwareentwicklungskit<phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> ist eine Erweiterung für SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>. Es ist ein vollständiges Toolkit für die Anwendungsbereitstellung. Das SUSE-SDK <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> stellt dabei ein umfassendes Entwicklungssystem bereit: Dieses SDK enthält sämtliche Open-Source-Werkzeuge, mit denen das SUSE Linux Enterprise Server-Produkt erstellt wurde. Als Entwickler, unabhängiger Softwarehersteller (ISV) oder unabhängiger Hardwarehersteller (IHV) stehen Ihnen somit alle Tools zur Verfügung, die Sie zum Portieren von Anwendungen auf sämtliche Plattformen benötigen, die von SUSE Linux Enterprise Desktop und SUSE Linux Enterprise Server unterstützt werden.
   </para>
 
   <para>

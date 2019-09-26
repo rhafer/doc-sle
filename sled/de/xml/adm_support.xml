@@ -163,7 +163,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
     </step>
     <step>
      <para>
-      Es wird nun mit dem Sammeln der Informationen begonnen. 
+      Es wird nun mit dem Sammeln der Informationen begonnen.
      </para>
      <informalfigure>
       <mediaobject>
@@ -452,7 +452,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable> 
+     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable>
      </term>
      <listitem>
       <para>
@@ -461,7 +461,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>PFAD_ZU_TARBALL_ODER_VERZEICHNIS</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>PFAD_ZU_TARBALL_ODER_VERZEICHNIS</replaceable>
      </term>
      <listitem>
       <para>
@@ -470,7 +470,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable>
      </term>
      <listitem>
       <para>
@@ -634,8 +634,8 @@ setup-sca</screen>
      </step>
      <step>
       <para>
-       Richten Sie Apache und MariaDB ein (und optional einen anonymen FTP-Server). 
-       
+       Richten Sie Apache und MariaDB ein (und optional einen anonymen FTP-Server).
+
       </para>
      </step>
      <step>
@@ -702,7 +702,7 @@ setup-sca</screen>
         <note>
          <title>FTP-Server mit anderem Verzeichnis</title>
          <para>
-          Wenn der FTP-Server ein anderes Verzeichnis verwendet (also nicht das Verzeichnis <filename>/srv/ftp/upload</filename>), passen Sie zunächst die folgenden Konfigurationsdateien so an, dass sie auf das richtige Verzeichnis verweisen: <filename>/etc/sca/sdagent.conf</filename> und <filename>/etc/sca/sdbroker.conf</filename>. 
+          Wenn der FTP-Server ein anderes Verzeichnis verwendet (also nicht das Verzeichnis <filename>/srv/ftp/upload</filename>), passen Sie zunächst die folgenden Konfigurationsdateien so an, dass sie auf das richtige Verzeichnis verweisen: <filename>/etc/sca/sdagent.conf</filename> und <filename>/etc/sca/sdbroker.conf</filename>.
          </para>
         </note>
        </listitem>
@@ -880,7 +880,7 @@ setup-sca</screen>
      </para>
 <screen>sudo zypper update sca-*</screen>
      <para>
-      Die Aktualisierungen werden standardmäßig aus dem Aktualisierungs-Respository für SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> installiert. Bei Bedarf können Sie die Quelle der Aktualisierungen in einen SMT-Server ändern. Beim Ausführen von <command>zypper update sca-patterns-*</command> durch <filename>sdagent-patterns</filename> werden die Aktualisierungen über den derzeit konfigurierten Aktualisierungskanal abgerufen. Wenn sich dieser Kanal auf einem SMT-Server befindet, werden die Pakete von diesem Server abgerufen.
+      Die Aktualisierungen werden standardmäßig aus dem Aktualisierungs-Respository für SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> installiert. Bei Bedarf können Sie die Quelle der Aktualisierungen in einen SMT-Server ändern. Beim Ausführen von <command>zypper update sca-patterns-*</command> durch <filename>sdagent-patterns</filename> werden die Aktualisierungen über den derzeit konfigurierten Aktualisierungskanal abgerufen. Wenn sich dieser Kanal auf einem SMT-Server befindet, werden die Pakete von diesem Server abgerufen.
      </para>
      <procedure>
       <title>Deaktivieren der automatischen Aktualisierung der SCA-Schemata</title>
@@ -1181,7 +1181,7 @@ setup-sca</screen>
   <para>
    Während der Installation ist <command>supportconfig</command> nicht verfügbar. Sie können Protokolldateien von YaST jedoch mithilfe von <command>save_y2logs</command> sammeln. Dieses Kommando erstellt ein <filename>.tar.xz</filename>-Archiv im Verzeichnis <filename>/tmp</filename>.
   </para>
-  
+
   <para>
    Wenn bereits früh Probleme bei der Installation auftreten, können Sie möglicherweise Informationen aus der durch <command>linuxrc</command> erstellten Protokolldatei sammeln. <command>linuxrc</command> ist ein kleines Kommando, das vor dem Start von YaST ausgeführt wird. Diese Protokolldatei finden Sie unter <filename>/var/log/linuxrc.log</filename>.
   </para>
@@ -1252,7 +1252,7 @@ setup-sca</screen>
    <itemizedlist mark="bullet" spacing="normal">
     <listitem>
      <para>
-      Linux-Kernel: Der Standardwert für <filename>/proc/sys/kernel/unsupported</filename> bei SUSE Linux Enterprise <literal>12 SP4</literal> lautet <phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase> (<literal>do not warn in syslog when loading unsupported modules</literal> [keine Warnung im Syslog, wenn nicht unterstützte Module geladen werden]). Dieser Standardwert wird im Installationsprogramm und im installierten System verwendet. Weitere Informationen finden Sie unter <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>.
+      Linux-Kernel: Der Standardwert für <filename>/proc/sys/kernel/unsupported</filename> bei SUSE Linux Enterprise <literal>12 SP5</literal> lautet <phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase> (<literal>do not warn in syslog when loading unsupported modules</literal> [keine Warnung im Syslog, wenn nicht unterstützte Module geladen werden]). Dieser Standardwert wird im Installationsprogramm und im installierten System verwendet. Weitere Informationen finden Sie unter <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>.
      </para>
     </listitem>
     <listitem>
@@ -1331,8 +1331,8 @@ setup-sca</screen>
      <link xlink:href="https://mariadb.com/kb/en/"/> – Dokumentation zur MariaDB.
     </para>
    </listitem>
-   
-   
+
+
    <listitem>
     <para>
      <link xlink:href="http://www.suse.com/communities/conversations/sca-pattern-development/"/> – Anweisungen zum Erstellen (und Testen) benutzerdefinierter SCA-Schemata.

@@ -760,6 +760,15 @@ DAYS=14</screen>
       </simplelist>
      </listitem>
     </varlistentry>
+    <varlistentry>
+     <term>SLES 12 SP5</term>
+     <listitem>
+      <simplelist>
+       <member><literal>SLES12-SP5-Pool</literal></member>
+       <member><literal>SLES12-SP5-Updates</literal></member>
+      </simplelist>
+     </listitem>
+    </varlistentry>
    </variablelist>
   </sect2>
 
@@ -811,6 +820,15 @@ DAYS=14</screen>
       </simplelist>
      </listitem>
     </varlistentry>
+    <varlistentry>
+     <term>SLES 12 SP5</term>
+     <listitem>
+      <simplelist>
+       <member><literal>SLES12-SP5-Debuginfo-Core</literal></member>
+       <member><literal>SLES12-SP5-Debuginfo-Updates</literal></member>
+      </simplelist>
+     </listitem>
+    </varlistentry>
    </variablelist>
   </sect2>
 
@@ -821,7 +839,7 @@ DAYS=14</screen>
    </para>
    <variablelist>
     <varlistentry>
-     <term>Verfügbare Module für SLES 12 GA/SP1/SP2/SP3/SP4</term>
+     <term>Verfügbare Module für SLES 12 GA/SP1/SP2/SP3/SP4/SP5</term>
      <listitem>
      <itemizedlist>
       <listitem>
@@ -852,7 +870,7 @@ DAYS=14</screen>
        </simplelist>
       </listitem>
       <listitem>
-       
+
        <para>
         Legacy-Modul: Sendmail, bisheriger IMAP-Stapel, bisheriges Java ... (nicht für AArch64 verfügbar)
        </para>
@@ -892,11 +910,11 @@ DAYS=14</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term>Verfügbare Module für SLES 12 SP2/SP3/SP4</term>
+     <term>Verfügbare Module für SLES 12 SP2/SP3/SP4/SP5</term>
      <listitem>
      <itemizedlist>
       <listitem>
-       
+
        <para>
         HPC-Modul: Werkzeuge und Bibliotheken für Hochleistungs-Computing
        </para>
@@ -959,6 +977,15 @@ DAYS=14</screen>
       </simplelist>
      </listitem>
     </varlistentry>
+     <varlistentry>
+     <term>SLED 12 SP5</term>
+     <listitem>
+      <simplelist>
+       <member><literal>SLED12-SP5-Pool</literal></member>
+       <member><literal>SLED12-SP5-Updates</literal></member>
+      </simplelist>
+     </listitem>
+    </varlistentry>
    </variablelist>
   </sect2>
 
@@ -1007,6 +1034,15 @@ DAYS=14</screen>
       <simplelist>
        <member><literal>SLED12-SP4-Debuginfo-Core</literal></member>
        <member><literal>SLED12-SP4-Debuginfo-Updates</literal></member>
+      </simplelist>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term>SLED 12 SP5</term>
+     <listitem>
+      <simplelist>
+       <member><literal>SLED12-SP5-Debuginfo-Core</literal></member>
+       <member><literal>SLED12-SP5-Debuginfo-Updates</literal></member>
       </simplelist>
      </listitem>
     </varlistentry>

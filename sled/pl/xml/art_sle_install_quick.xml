@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Skrócona instrukcja instalacji</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="d B Y"?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     Aby zainstalować nową wersję systemu <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>, należy użyć poniższych procedur. Ten dokument zawiera krótkie omówienie domyślnej instalacji systemu <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> w ramach architektury AMD64/Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>, należy użyć poniższych procedur. Ten dokument zawiera krótkie omówienie domyślnej instalacji systemu <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> w ramach architektury AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -119,7 +119,7 @@
      <para>
       Po skonfigurowaniu co najmniej jednego interfejsu sieciowego możesz zarejestrować swój system w witrynie SUSE Customer Center (SCC). Wprowadź adres e-mail skojarzony z Twoim kontem SCC oraz podaj kod rejestracji systemu <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>. Pomyślna rejestracja jest warunkiem koniecznym otrzymywania aktualizacji produktu oraz uprawnia do korzystania z pomocy technicznej. Kliknij przycisk <guimenu>Next</guimenu> (Dalej), aby kontynuować.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -147,7 +147,7 @@
      <para>
       Po pomyślnym zarejestrowaniu systemu program YaST wyświetla listę modułów oraz rozszerzeń systemu <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> dostępnych w witrynie SUSE Customer Center. Lista zawiera zarówno moduły bezpłatne, takie jak pakiet SUSE Linux Enterprise SDK, jak i rozszerzenia wymagające klucza rejestracyjnego i podlegające opłacie. Kliknij dowolną pozycję na liście, aby wyświetlić jej opis. Opcjonalnie wybierz moduł lub rozszerzenie do zainstalowania, aktywując jego symbol zaznaczenia. Kliknij przycisk <guimenu>Next</guimenu> (Dalej), aby kontynuować.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase> Wybór rozszerzenia</phrase>
@@ -157,7 +157,7 @@
        </imageobject>
        <imageobject role="html">
         <imagedata fileref="install_extensions_sled.png" width="100%"/>
-       </imageobject>       
+       </imageobject>
       </mediaobject>
      </informalfigure>
     </step>
@@ -188,7 +188,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       Zapoznaj się z układem partycji proponowanym przez system. W razie konieczności możesz go zmienić. Dostępne są następujące opcje:
@@ -331,7 +331,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>Default Systemd Target and Services</guimenu> (Domyślny demon systemu i usługi)
        </term>
@@ -351,7 +351,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -367,7 +367,7 @@
      <para>
       Po zakończeniu konfiguracji systemu na ekranie <guimenu>Installation Settings</guimenu> (Ustawienia instalacji) kliknij opcję <guimenu>Install</guimenu> (Zainstaluj). W zależności od wybranego oprogramowania może okazać się konieczne wyrażenie zgody na umowy licencyjne przed pojawieniem się ekranu z potwierdzeniem instalacji. Aż do tego momentu w systemie nie wprowadzono żadnych zmian. Proces instalacji rozpoczyna się po kliknięciu po raz drugi opcji <guimenu>Instaluj</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -393,7 +393,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

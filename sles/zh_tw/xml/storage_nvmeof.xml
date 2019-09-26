@@ -24,7 +24,7 @@
    <emphasis>NVMe 主機</emphasis>是連接到 NVMe 目標的機器。<emphasis>NVMe 目標</emphasis>是指共用其 NVMe 區塊裝置的機器。
   </para>
   <para>
-   SUSE Linux Enterprise Server <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> 支援 NVMe。提供了可用於 NVMe 區塊儲存及 NVMe over Fabric 目標和主機的核心模組。
+   SUSE Linux Enterprise Server <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> 支援 NVMe。提供了可用於 NVMe 區塊儲存及 NVMe over Fabric 目標和主機的核心模組。
   </para>
   <para>
    若要查看您的硬體是否有任何特殊考量，請參閱<xref linkend="cha.nvmeof.hardware"/>。

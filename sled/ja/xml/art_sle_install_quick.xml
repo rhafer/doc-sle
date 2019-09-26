@@ -8,9 +8,9 @@
 
 
  <title><citetitle>インストールクイックスタート</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Desktop 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Desktop 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="Y"?>
  年 <?dbtimestamp format="B"?>
 月 <?dbtimestamp format="d"?>
@@ -23,7 +23,7 @@
 
    <para>
     <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>の新バージョンをインストールするには、次の手順に従います。このマニュアルでは、AMD64またはIntel 64アーキテクチャに<phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>をデフォルトインストールする方法について簡単に説明します。
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5#</phrase></phrase>の新バージョンをインストールするには、次の手順に従います。このマニュアルでは、AMD64またはIntel 64アーキテクチャに<phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>をデフォルトインストールする方法について簡単に説明します。
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -121,7 +121,7 @@
      <para>
       ネットワークインタフェースを少なくとも1つ設定すると、SUSEカスタマーセンター(SCC)でシステムを登録できるようになります。SCCアカウントに関連付けられている電子メールアドレスと、<phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>の登録コードを入力します。製品のアップデートを入手したり、テクニカルサポートを利用したりするには、正しく登録されていることが前提条件になります。<guimenu>次へ</guimenu>で続行します。
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -149,7 +149,7 @@
      <para>
       システムが正しく登録されると、SUSEカスタマーセンターで利用可能な、<phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>用のモジュールと拡張機能がYaSTによって表示されます。このリストには、SUSE Linux Enterprise SDKのような無償のモジュールもあれば、有償の登録キーを必要とする拡張機能もあります。それぞれの説明を表示するには、そのエントリをクリックします。オプションで、インストールするモジュールまたは拡張機能をオンにして選択します。<guimenu>次へ</guimenu>で続行します。
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase>拡張機能の選択</phrase>
@@ -190,7 +190,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       システムによって推奨されたパーティションの設定を確認します。必要に応じて設定を変更します。次の選択肢があります。
@@ -333,7 +333,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>Systemdのデフォルトのターゲットとサービス</guimenu>
        </term>
@@ -353,7 +353,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -369,7 +369,7 @@
      <para>
       <guimenu>インストールの設定</guimenu>画面でシステムの設定を完了したら、<guimenu>インストールする</guimenu>をクリックします。ソフトウェアの選択内容によっては、インストールの確認画面が表示される前にライセンス契約に同意しなければならない場合があります。この段階では、システムはまだ変更されていません。もう一度<guimenu>インストールする</guimenu>をクリックすると、インストールプロセスが開始されます。
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -395,7 +395,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

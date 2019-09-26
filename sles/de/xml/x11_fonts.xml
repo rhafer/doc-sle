@@ -198,7 +198,7 @@ DejaVuSansMono.ttf: "DejaVu Sans Mono" "Book"</screen>
      Installieren Sie die Schriften mit <command>zypper</command>. Zahlreiche Schriften sind bereits als Paket verfügbar, beispielsweise in der SUSE-Distribution oder im Repository <link xlink:href="http://download.opensuse.org/repositories/M17N:/fonts/">M17N:fonts</link>. Fügen Sie das Repository mit dem nachfolgenden Kommando in die Liste ein. So fügen Sie beispielsweise ein Repository für SLE 12 hinzu:
     </para>
 <screen>sudo zypper ar
-     <phrase os="sles;sled">http://download.opensuse.org/repositories/M17N:/fonts/SLE_12_SP4/</phrase></screen>
+     <phrase os="sles;sled">http://download.opensuse.org/repositories/M17N:/fonts/SLE_12_SP5/</phrase></screen>
     <para>
      <replaceable>FONT_FAMILY_NAME</replaceable> ermitteln Sie mit dem folgenden Kommando:
     </para>

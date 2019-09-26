@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Краткое руководство по установке</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 с пакетом обновления 4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 с пакетом обновления 5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="d B Y"?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     Ниже описана процедура установки <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 с пакетом обновления 4</phrase></phrase>. В этом документе приведен краткий обзор действий, необходимых для стандартной установки <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> на компьютерах с архитектурой AMD64/Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 с пакетом обновления 5</phrase></phrase>. В этом документе приведен краткий обзор действий, необходимых для стандартной установки <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> на компьютерах с архитектурой AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -119,7 +119,7 @@
      <para>
       После настройки как минимум одного сетевого интерфейса можно зарегистрировать систему в Центре по работе с клиентами SUSE. Введите адрес электронной почты, связанный с вашей учетной записью Центра по работе с клиентами SUSE, и код регистрации <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>. Успешная регистрация является необходимым условием для получения обновлений продукта и использования технической поддержки. Для продолжения нажмите кнопку <guimenu>Далее</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -147,7 +147,7 @@
      <para>
       После успешной регистрации системы средство установки YaST отобразит список модулей и расширений, доступных для <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> в Центре по работе с клиентами SUSE. Список содержит бесплатные модули, например SUSE Linux Enterprise SDK, а также расширения, для которых необходим платный регистрационный ключ. Щелкните элемент списка, чтобы посмотреть его описание. Кроме того, можно выбрать модуль или расширение для установки, установив соответствующую пометку. Для продолжения нажмите кнопку <guimenu>Далее</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase>Выбор расширений</phrase>
@@ -188,7 +188,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       Проверьте настройку разделов, предлагаемую системой. При необходимости измените ее. Существуют следующие возможности:
@@ -331,7 +331,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>Назначение systemd, используемое по умолчанию</guimenu>
        </term>
@@ -351,7 +351,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -367,7 +367,7 @@
      <para>
       После окончательной настройки конфигурации системы на экране <guimenu>Installation Settings</guimenu> (Настройки установки) нажмите кнопку <guimenu>Install</guimenu> (Установить). В зависимости от выбора программного обеспечения, возможно, вам понадобится принять условия лицензионного соглашения перед тем, как появится экран подтверждения установки. До этого момента в системе не было сделано изменений. После повторного нажатия кнопки <guimenu>Установить</guimenu> запустится процесс установки.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -393,7 +393,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

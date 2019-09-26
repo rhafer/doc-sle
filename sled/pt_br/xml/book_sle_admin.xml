@@ -6,7 +6,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:base="book_sle_admin.xml" version="5.0" xml:lang="pt-br" xml:id="book.sle.admin">
  <info>
   <title><citetitle>Guia de Administração</citetitle></title><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><date>
 <?dbtimestamp format="B d, Y" ?>
 
 </date>
@@ -72,16 +72,16 @@
  <part xml:id="part.services">
   <title>Serviços</title>
   <xi:include href="net_xntp.xml"/>
-  
-  
+
+
   <xi:include href="net_nfs.xml"/>
   <xi:include href="net_samba.xml"/>
   <xi:include href="autofs.xml"/>
-  
-  
-  
-  
-  
+
+
+
+
+
  </part>
 
 

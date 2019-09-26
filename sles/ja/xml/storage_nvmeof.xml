@@ -24,7 +24,7 @@
    <emphasis/>NVMeホストは、NVMeターゲットに接続するマシンです。<emphasis/>NVMeターゲットは、そのNVMeブロックデバイスを共有するマシンです。
   </para>
   <para>
-   NVMeはSUSE Linux Enterprise Server <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>でサポートされています。NVMeブロックストレージおよびNVMe over Fabricターゲットとホストには、専用のカーネルモジュールが用意されています。
+   NVMeはSUSE Linux Enterprise Server <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>でサポートされています。NVMeブロックストレージおよびNVMe over Fabricターゲットとホストには、専用のカーネルモジュールが用意されています。
   </para>
   <para>
    ご使用のハードウェアに関する特別な考慮事項があるかどうかを確認するには、<xref linkend="cha.nvmeof.hardware"/>を参照してください。

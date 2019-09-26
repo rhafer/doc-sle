@@ -210,7 +210,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
     </step>
     <step>
      <para>
-      从 SUSE 网站下载您需要的所有体系结构对应的 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> DVD ISO 映像。
+      从 SUSE 网站下载您需要的所有体系结构对应的 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> DVD ISO 映像。
      </para>
     </step>
     <step>
@@ -242,7 +242,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
   </sect2>
   <sect2 xml:id="sec.deployment.prep_boot.pxelinux">
    <title>用于 x86 的 BIOS 文件</title>
-   
+
    <procedure>
     <step>
      <para>

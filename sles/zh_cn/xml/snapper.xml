@@ -635,7 +635,7 @@ c..... /var/lib/rpm/Sigmd5</screen>
    <title>受支持的配置</title>
    <para>
 
-    从 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> 开始，只有在根分区的默认子卷配置未更改过的情况下，才支持系统回滚。
+    从 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> 开始，只有在根分区的默认子卷配置未更改过的情况下，才支持系统回滚。
    </para>
   </important>
 

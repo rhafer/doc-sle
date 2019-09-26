@@ -48,7 +48,7 @@
    El procedimiento siguiente describe el arranque desde un DVD, pero también es posible usar otro medio de instalación local, como una imagen ISO o un dispositivo de almacenamiento masivo USB. El medio y el método de arranque que seleccione dependerán de la arquitectura del sistema y de si el equipo dispone de BIOS tradicional o UEFI.
   </para>
   <procedure xml:id="pro.update.sle12.offline.dvd">
-   <title>Actualización manual desde SLE 11 SP4 a SLE 12 SP4</title>
+   <title>Actualización manual desde SLE 11 SP4 a SLE 12 SP5</title>
    <step>
     <para>
      Seleccione y prepare un medio de arranque, consulte el <xref linkend="sec.i.yast2.startup"/>.
@@ -204,7 +204,7 @@
    </step>
    <step>
     <para>
-     En la pantalla <guimenu>Bienvenida,</guimenu> seleccione los valores oportunos en <guimenu>Idioma</guimenu> y <guimenu>Teclado</guimenu> y acepte el Acuerdo de licencia. Haga clic en <guimenu>Siguiente.</guimenu> 
+     En la pantalla <guimenu>Bienvenida,</guimenu> seleccione los valores oportunos en <guimenu>Idioma</guimenu> y <guimenu>Teclado</guimenu> y acepte el Acuerdo de licencia. Haga clic en <guimenu>Siguiente.</guimenu>
     </para>
     <para>
      YaST comprueba en las particiones si hay sistemas SUSE Linux Enterprise ya instalados.
@@ -220,7 +220,7 @@
    </step>
    <step>
     <para>
-     En la pantalla <guimenu>Repositorios usados anteriormente</guimenu>, ajuste el estado de los repositorios: habilite los que desea incluir en el proceso de actualización e inhabilite los que ya no necesite. Haga clic en <guimenu>Siguiente.</guimenu> 
+     En la pantalla <guimenu>Repositorios usados anteriormente</guimenu>, ajuste el estado de los repositorios: habilite los que desea incluir en el proceso de actualización e inhabilite los que ya no necesite. Haga clic en <guimenu>Siguiente.</guimenu>
     </para>
    </step>
    <step>
@@ -277,13 +277,13 @@
   <para>
    SUSE Manager es una solución de servidor para proporcionar actualizaciones, parches y soluciones de seguridad para los clientes de SUSE Linux Enterprise. Incorpora un conjunto de herramientas y una interfaz de usuario Web para tareas de gestión. Consulte <link xlink:href="https://www.suse.com/products/suse-manager/"/> para obtener más información sobre SUSE Manager.
   </para>
-  
+
   <para>
    SUSE Manager puede ayudarle para migrar paquetes de servicios o para realizar una actualización completa del sistema.
   </para>
 
   <variablelist>
-   
+
    <varlistentry>
     <term>Migración de paquetes de servicios</term>
     <listitem>
@@ -391,7 +391,7 @@
      Para iniciar el registro, haga clic en <guimenu>Siguiente.</guimenu> Si en la red hay más de un servidor de registro local disponible, podrá elegir uno en la lista. También puede ignorar los servidores de registro locales y registrarse con el servidor de registro de SUSE por defecto. Para ello, seleccione <guimenu>Cancelar.</guimenu>
     </para>
     <para>
-     Durante el registro, los repositorios de actualización en línea se añaden a la configuración de la actualización. Cuando termine, podrá optar por instalar las versiones más recientes disponibles del paquete desde los repositorios de actualización. Esto proporciona una vía de actualización limpia para todos los paquetes y garantiza que <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> se actualiza con las últimas actualizaciones de seguridad disponibles. Si selecciona <guimenu>No,</guimenu> todos los paquetes se instalarán desde el medio de instalación. Haga clic en <guimenu>Siguiente.</guimenu> 
+     Durante el registro, los repositorios de actualización en línea se añaden a la configuración de la actualización. Cuando termine, podrá optar por instalar las versiones más recientes disponibles del paquete desde los repositorios de actualización. Esto proporciona una vía de actualización limpia para todos los paquetes y garantiza que <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> se actualiza con las últimas actualizaciones de seguridad disponibles. Si selecciona <guimenu>No,</guimenu> todos los paquetes se instalarán desde el medio de instalación. Haga clic en <guimenu>Siguiente.</guimenu>
     </para>
     <para>
      Después de registrarse correctamente, YaST muestra las extensiones, los productos adicionales y los módulos disponibles para el sistema. Para seleccionarlos e instalarlos, continúe en: <xref linkend="sec.add-ons.installation"/>.

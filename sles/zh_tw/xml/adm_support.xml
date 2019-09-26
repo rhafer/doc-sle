@@ -452,7 +452,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable> 
+     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable>
      </term>
      <listitem>
       <para>
@@ -461,7 +461,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>PATH_TO_TARBALL_OR_DIR</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>PATH_TO_TARBALL_OR_DIR</replaceable>
      </term>
      <listitem>
       <para>
@@ -470,7 +470,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable>
      </term>
      <listitem>
       <para>
@@ -879,7 +879,7 @@ setup-sca</screen>
      </para>
 <screen>sudo zypper update sca-*</screen>
      <para>
-      系統預設從 SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> 更新儲存庫安裝更新。如果需要，您可以將更新來源變更為某台 SMT 伺服器。當 <filename>sdagent-patterns</filename> 執行 <command>zypper update sca-patterns-*</command> 時，將從目前設定的更新通道中取得更新。如果該通道在 SMT 伺服器上，將從該伺服器提取套件。
+      系統預設從 SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> 更新儲存庫安裝更新。如果需要，您可以將更新來源變更為某台 SMT 伺服器。當 <filename>sdagent-patterns</filename> 執行 <command>zypper update sca-patterns-*</command> 時，將從目前設定的更新通道中取得更新。如果該通道在 SMT 伺服器上，將從該伺服器提取套件。
      </para>
      <procedure>
       <title>停用 SCA 模式的自動更新</title>
@@ -1180,7 +1180,7 @@ setup-sca</screen>
   <para>
    安裝期間無法使用 <command>supportconfig</command>。不過，您可以使用 <command>save_y2logs</command> 從 YaST 收集記錄檔案。此指令將在 <filename>/tmp</filename> 目錄下建立 <filename>.tar.xz</filename> 歸檔。
   </para>
-  
+
   <para>
    如果在安裝之初便出現問題，可以透過 <command>linuxrc</command> 建立的記錄檔案收集資訊。<command>linuxrc</command> 是在 YaST 啟動之前執行的小指令。此記錄檔案位於 <filename>/var/log/linuxrc.log</filename>。
   </para>
@@ -1251,7 +1251,7 @@ setup-sca</screen>
    <itemizedlist mark="bullet" spacing="normal">
     <listitem>
      <para>
-      Linux 核心︰在 SUSE Linux Enterprise <filename> 12 SP4</filename> 上，<literal>/proc/sys/kernel/unsupported</literal> 的值預設設為 <phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase> (<literal>載入不受支援的模組時，syslog 中不發出警告</literal>)。安裝程式以及已安裝的系統中均使用此預設值。如需詳細資訊，請參閱 <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>。
+      Linux 核心︰在 SUSE Linux Enterprise <filename> 12 SP5</filename> 上，<literal>/proc/sys/kernel/unsupported</literal> 的值預設設為 <phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase> (<literal>載入不受支援的模組時，syslog 中不發出警告</literal>)。安裝程式以及已安裝的系統中均使用此預設值。如需詳細資訊，請參閱 <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>。
      </para>
     </listitem>
     <listitem>

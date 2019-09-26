@@ -8,9 +8,9 @@
 
 
  <title><citetitle>インストールクイックスタート</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
 <?dbtimestamp format="Y"?>
  年 <?dbtimestamp format="B"?>
 月 <?dbtimestamp format="d"?>
@@ -23,7 +23,7 @@
 
    <para>
     <phrase role="productname"><phrase os="sles">SUSE® Linux Enterprise Server</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>の新バージョンをインストールするには、次の手順に従います。このマニュアルでは、AMD64/Intel 64アーキテクチャに<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>をデフォルトインストールする方法について簡単に説明します。
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>の新バージョンをインストールするには、次の手順に従います。このマニュアルでは、AMD64/Intel 64アーキテクチャに<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>をデフォルトインストールする方法について簡単に説明します。
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -131,7 +131,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
      <tip>
       <title>インストール時に製品パッチをインストールする</title>
       <para>
@@ -161,7 +161,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -385,7 +385,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -401,13 +401,13 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
       インストール中は、<guimenu>詳細</guimenu>タブに詳しい進行状況が表示されます。
      </para>
-     
+
      <informalfigure os="sles">
       <mediaobject>
        <imageobject role="fo">

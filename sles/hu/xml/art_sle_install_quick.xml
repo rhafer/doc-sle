@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Telepítési gyorskalauz</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
 <?dbtimestamp format="Y. B d."?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     A következő eljárásokkal telepítheti a <phrase role="productname"><phrase os="sles">SUSE® Linux Enterprise Server</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> új verzióját. A jelen dokumentum gyors áttekintést ad arról, hogyan végezhető el a <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> alapértelmezett telepítése AMD64/Intel 64 architektúrán.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> új verzióját. A jelen dokumentum gyors áttekintést ad arról, hogyan végezhető el a <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> alapértelmezett telepítése AMD64/Intel 64 architektúrán.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -129,7 +129,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
      <tip>
       <title>Javítások telepítése a rendszer telepítésekor</title>
       <para>
@@ -159,7 +159,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -383,7 +383,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -399,13 +399,13 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
       A telepítés során részletesen nyomon követhető a folyamat a <guimenu>Részletek</guimenu> lapon.
      </para>
-     
+
      <informalfigure os="sles">
       <mediaobject>
        <imageobject role="fo">

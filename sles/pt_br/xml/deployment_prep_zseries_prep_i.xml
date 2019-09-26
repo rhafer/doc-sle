@@ -216,7 +216,7 @@
     <calloutlist>
      <callout arearefs="cobbler.add.identifier">
       <para>
-       Identificador personalizado para a distribuição, por exemplo <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> z Systems</quote>. Deve ser exclusivo.
+       Identificador personalizado para a distribuição, por exemplo <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> z Systems</quote>. Deve ser exclusivo.
       </para>
      </callout>
      <callout arearefs="cobbler.add.os">
@@ -331,7 +331,7 @@ DASD=600"</screen>
       Se preferir, no modo manual, em <filename>linuxrc</filename>, escolha:
      </para>
      <para>
-      <emphasis role="italic">Iniciar Instalação</emphasis>, 
+      <emphasis role="italic">Iniciar Instalação</emphasis>,
      </para>
      <para>
       <emphasis role="italic">Instalação</emphasis> e
@@ -1104,7 +1104,7 @@ ter '+++' to abort).
     Para conectar-se a um sistema de instalação chamado <literal>earth</literal> usando SSH, execute <command>ssh -X earth</command>. Se a sua estação de trabalho é executada no Microsoft Windows, use o cliente SSH e telnet e o emulador de terminal Putty, que está disponível em <link xlink:href="http://www.chiark.greenend.org.uk/~sgtatham/putty/"/>. Defina <guimenu>Habilitar o encaminhamento X11</guimenu> no Putty em <menuchoice> <guimenu>Conexão</guimenu> <guimenu>SSH</guimenu> <guimenu>X11</guimenu> </menuchoice>. Se você usa outro sistema operacional, execute <command>ssh -X earth</command> para conectar-se a um sistema de instalação com o nome <systemitem>earth</systemitem>. O Encaminhamento X via SSH será suportado se você tiver um servidor X local disponível. Do contrário, o YaST fornecerá uma interface de texto desenvolvida por ncurses.
    </para>
    <para>
-    Aparece um prompt de login. Digite <literal>root</literal> e efetue login com a sua senha. Digite <command>yast.ssh</command> para iniciar o YaST. O YaST orientará você durante a instalação. 
+    Aparece um prompt de login. Digite <literal>root</literal> e efetue login com a sua senha. Digite <command>yast.ssh</command> para iniciar o YaST. O YaST orientará você durante a instalação.
    </para>
    <para>
     Continue seguindo a descrição detalhada do procedimento de instalação que pode ser encontrado no <xref linkend="cha.inst"/>.

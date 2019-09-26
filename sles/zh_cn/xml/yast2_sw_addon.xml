@@ -141,7 +141,7 @@
 
  <sect1 xml:id="sec.add-ons.extensions" os="sles">
   <title>可用扩展列表</title>
-  
+
   <para>
    扩展为 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> 的在线增补和高可用性群集组建等任务提供高级功能。它们以订阅的形式提供，需要注册密钥，因此需付费才能使用。通常，在 <link xlink:href="https://www.suse.com/releasenotes"/> 中可找到各扩展的发行说明文档。
   </para>
@@ -149,7 +149,7 @@
    <varlistentry os="sles">
     <term>高可用性</term>
     <listitem>
-     
+
      <para>
       High Availability 扩展为任务关键型设置添加了群集支持。随附的工具包括 Hawk、crm、Pacemaker 和 Corosync。High Availability 支持包含在 SUSE Linux Enterprise Server for SAP Applications 和 SUSE Linux Enterprise High Performance Computing 的订阅中，并以 SUSE Linux Enterprise Server 的扩展形式提供。
      </para>
@@ -158,7 +158,7 @@
    <varlistentry>
     <term>Live Patching</term>
     <listitem>
-     
+
      <para>
       使用 SUSE Linux Enterprise Live Patching，无需关闭系统即可执行关键的内核增补，从而减少了计划内停机的需要，提高了服务可用性。
      </para>
@@ -175,7 +175,7 @@
    <varlistentry>
     <term>SUSE OpenStack Cloud 9</term>
     <listitem>
-     
+
      <para>
       SUSE OpenStack Cloud 由 OpenStack（社区驱动的领先开放源代码云基础结构项目）提供支持，并与 SUSE Linux Enterprise Server 打包在一起。该产品与 SUSE 维护和支持基础结构完全集成。对于想要部署具有企业级可靠性和支持能力的云项目的客户而言，它是一个理解的解决方案。
      </para>
@@ -184,7 +184,7 @@
    <varlistentry>
     <term>SUSE OpenStack Cloud Crowbar 9</term>
     <listitem>
-     
+
      <para>
       SUSE OpenStack Cloud Crowbar 是一个开放源代码软件解决方案，提供用于部署和管理由 OpenStack（社区驱动的领先开放源代码云基础结构项目）提供支持的云基础结构的基本功能。它能够以安全、合规且完全受支持的方式，在整个异构云环境中实现工作负载无缝管理和供应。
      </para>
@@ -380,7 +380,7 @@
   </procedure>
  </sect1>
  <sect1 xml:id="sec.add-ons.sdk">
-  <title>SUSE Software Development Kit (SDK) <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></title><indexterm>
+  <title>SUSE Software Development Kit (SDK) <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></title><indexterm>
 
   <primary>软件</primary>
 
@@ -391,7 +391,7 @@
   <primary>SUSE SDK</primary></indexterm>
 
   <para>
-   SUSE Software Development Kit <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> 是适用于 SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> 的扩展。这是一个用于应用程序开发的完整工具箱。事实上，为了提供全面的构建系统，SUSE Software Development Kit <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> 包含先前用于构建 SUSE Linux Enterprise Server 产品的所有开放源代码工具。它为开发人员、独立软件供应商 (ISV) 或独立硬件供应商 (IHV) 提供了将应用程序移植到 SUSE Linux Enterprise Desktop 和 SUSE Linux Enterprise Server 支持的所有平台所需的一切工具。
+   SUSE Software Development Kit <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> 是适用于 SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> 的扩展。这是一个用于应用程序开发的完整工具箱。事实上，为了提供全面的构建系统，SUSE Software Development Kit <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> 包含先前用于构建 SUSE Linux Enterprise Server 产品的所有开放源代码工具。它为开发人员、独立软件供应商 (ISV) 或独立硬件供应商 (IHV) 提供了将应用程序移植到 SUSE Linux Enterprise Desktop 和 SUSE Linux Enterprise Server 支持的所有平台所需的一切工具。
   </para>
 
   <para>

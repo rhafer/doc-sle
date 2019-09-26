@@ -24,7 +24,7 @@
    <emphasis>NVMe 主机</emphasis>是指连接到 NVMe 目标的计算机。<emphasis>NVMe 目标</emphasis>是指共享其 NVMe 块设备的计算机。
   </para>
   <para>
-   SUSE Linux Enterprise Server <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> 支持 NVMe。提供了可用于 NVMe 块储存以及 NVMe over Fabric 目标和主机的内核模块。
+   SUSE Linux Enterprise Server <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> 支持 NVMe。提供了可用于 NVMe 块储存以及 NVMe over Fabric 目标和主机的内核模块。
   </para>
   <para>
    要查看您的硬件是否有任何特殊注意事项，请参见<xref linkend="cha.nvmeof.hardware"/>。

@@ -11,7 +11,7 @@
 
  <para>
 
-  要安装第三方软件，请向系统添加额外的软件储存库。默认情况下，系统注册后会自动配置产品储存库（例如 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>）和匹配的更新储存库。<phrase os="sles;sled">有关注册的更多信息，请参见<xref linkend="sec.i.yast2.conf.manual.cc"/>或<xref linkend="sec.update.registersystem"/></phrase>。根据最初所选的产品，可能还会配置包含翻译、字典等的附加储存库。。
+  要安装第三方软件，请向系统添加额外的软件储存库。默认情况下，系统注册后会自动配置产品储存库（例如 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>）和匹配的更新储存库。<phrase os="sles;sled">有关注册的更多信息，请参见<xref linkend="sec.i.yast2.conf.manual.cc"/>或<xref linkend="sec.update.registersystem"/></phrase>。根据最初所选的产品，可能还会配置包含翻译、字典等的附加储存库。。
  </para>
 
  <para>

@@ -16,7 +16,7 @@
   </dm:docmanager>
  </info>
  <sect1 xml:id="sec.update.sle.paths">
-  <title>Caminhos de upgrade suportados para o SLE 12 SP4</title>
+  <title>Caminhos de upgrade suportados para o SLE 12 SP5</title>
 
 <figure xml:id="fig.update.sle.paths-overview">
    <title>Visão geral dos caminhos de upgrade suportados</title>
@@ -77,7 +77,7 @@
     <term>Fazendo upgrade do SUSE Linux Enterprise 11 GA/SP1/SP2/SP3</term>
     <listitem>
      <para>
-      Não há um caminho de migração direto suportado para o SUSE Linux Enterprise 12. No mínimo, você precisa do SLE 11 SP4 antes de prosseguir para o SLE 12 SP4.
+      Não há um caminho de migração direto suportado para o SUSE Linux Enterprise 12. No mínimo, você precisa do SLE 11 SP4 antes de prosseguir para o SLE 12 SP5.
      </para>
      <para>
       Se você não pode executar uma nova instalação, primeiramente faça upgrade do SLE 11 Service Pack para o SLE 11 SP4. Estas etapas estão descritas no <citetitle><citetitle>Guia de Implantação</citetitle></citetitle> do SUSE Linux Enterprise 11: <link os="sles" xlink:href="https://www.suse.com/documentation/sles11/"/> .
@@ -88,48 +88,56 @@
     <term>Fazendo upgrade do SUSE Linux Enterprise 11 SP4</term>
     <listitem>
      <para>
-      O upgrade do SLE 11 SP4 para o SLE 12 SP4 apenas é suportado por meio de um upgrade offline. Consulte o <xref linkend="cha.update.offline"/> para obter os detalhes.
+      O upgrade do SLE 11 SP4 para o SLE 12 SP5 apenas é suportado por meio de um upgrade offline. Consulte o <xref linkend="cha.update.offline"/> para obter os detalhes.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>Fazendo upgrade do SUSE Linux Enterprise 12 GA para o SP4</term>
+    <term>Fazendo upgrade do SUSE Linux Enterprise 12 GA para o SP5</term>
     <listitem>
      <para>
-      Não há suporte a upgrade direto do SLE 12 GA para o SP4. Faça primeiro o upgrade para o SLE 12 <phrase os="sles">SP2 ou</phrase> SP3.
+      Não há suporte a upgrade direto do SLE 12 GA para o SP5. Faça primeiro o upgrade para o SLE 12 <phrase os="sles">SP3 ou</phrase> SP4.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>Fazendo upgrade do SUSE Linux Enterprise 12 SP1 para o SP4</term>
+    <term>Fazendo upgrade do SUSE Linux Enterprise 12 SP1 para o SP5</term>
     <listitem>
      <para>
-      O upgrade direto do SLE 12 1SP para o SP4 não é suportado. Faça primeiro o upgrade para o SLE 12 <phrase os="sles">SP2 ou</phrase> SP3.
+      O upgrade direto do SLE 12 SP1 para o SP5 não é suportado. Faça primeiro o upgrade para o SLE 12 <phrase os="sles">SP3 ou</phrase> SP4.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>Fazendo upgrade do SUSE Linux Enterprise 12 SP2 para o SP4</term>
+    <term>Fazendo upgrade do SUSE Linux Enterprise 12 SP2 para o SP5</term>
     <listitem>
      <para>
-      O upgrade do SUSE Linux Enterprise 12 SP2 para o SP4 é suportado.
+      O upgrade direto do SLE 12 SP2 para o SP5 não é suportado. Faça primeiro o upgrade para o SLE 12 <phrase os="sles">SP3 ou</phrase> SP4.
      </para>
     </listitem>
    </varlistentry>
 
    <varlistentry>
-    <term>Fazendo upgrade do SUSE Linux Enterprise 12 SP3 para o SP4</term>
+    <term>Fazendo upgrade do SUSE Linux Enterprise 12 SP3 para o SP5</term>
     <listitem>
      <para>
-      O upgrade do SUSE Linux Enterprise 12 SP3 para o SP4 é suportado.
+      O upgrade do SUSE Linux Enterprise 12 SP3 para o SP5 é suportado.
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>Fazendo upgrade do SUSE Linux Enterprise 12 SP4 para o SP5</term>
+    <listitem>
+     <para>
+      O upgrade do SUSE Linux Enterprise 12 SP4 para o SP5 é suportado.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>Fazendo upgrade do SUSE Linux Enterprise 12 LTSS SP1 para o SP4</term>
+    <term>Fazendo upgrade do SUSE Linux Enterprise 12 LTSS SP1 para o SP5</term>
     <listitem>
      <para>
-      A atualização direta do SUSE Linux Enterprise 12 LTSS SP1 para o SP4 é suportada.
+      A atualização direta do SUSE Linux Enterprise 12 LTSS SP1 para o SP5 é suportada.
      </para>
     </listitem>
    </varlistentry>
@@ -163,10 +171,10 @@
    </varlistentry>
   </variablelist>
   <para>
-   O upgrade do SUSE Linux Enterprise 11 SP4 para o SUSE Linux Enterprise 12 SP4 apenas é suportado por meio de um upgrade offline. Consulte a <xref linkend="cha.update.offline"/>.
+   O upgrade do SUSE Linux Enterprise 11 SP4 para o SUSE Linux Enterprise 12 SP5 apenas é suportado por meio de um upgrade offline. Consulte a <xref linkend="cha.update.offline"/>.
   </para>
   <para>
-   O upgrade do SUSE Linux Enterprise 12 LTSS SP1 para o SP4 é suportado usando todos os métodos offline e online. Consulte <xref linkend="cha.update.offline"/> e <xref linkend="cha.update.online"/>.
+   O upgrade do SUSE Linux Enterprise 12 LTSS SP1 para o SP5 é suportado usando todos os métodos offline e online. Consulte <xref linkend="cha.update.offline"/> e <xref linkend="cha.update.online"/>.
   </para>
   <important>
    <title>Clientes SUSE Manager</title>
@@ -385,7 +393,7 @@
       </listitem>
       <listitem>
        <para>
-        Instale os pacotes da nova versão principal do PostgreSQL. Para o SLE 12 SP4, isso significa instalar o
+        Instale os pacotes da nova versão principal do PostgreSQL. Para o SLE 12 SP5, isso significa instalar o
         <package>postgresql10-server</package>
         e todos os pacotes dos quais ele depende.
        </para>

@@ -16,7 +16,7 @@
   </dm:docmanager>
  </info>
  <sect1 xml:id="sec.update.sle.paths">
-  <title>支持的 SLE 12 SP4 升级路径</title>
+  <title>支持的 SLE 12 SP5 升级路径</title>
 
 <figure xml:id="fig.update.sle.paths-overview">
    <title>支持的升级路径概述</title>
@@ -77,7 +77,7 @@
     <term>从 SUSE Linux Enterprise 11 GA/SP1/SP2/SP3 升级</term>
     <listitem>
      <para>
-      不支持直接迁移到 SUSE Linux Enterprise 12。您的版本至少需为 SLE 11 SP4，才能升级到 SLE 12 SP4。
+      不支持直接迁移到 SUSE Linux Enterprise 12。您的版本至少需为 SLE 11 SP4，才能升级到 SLE 12 SP5。
      </para>
      <para>
       如果您不能执行全新安装，请先将已安装的 SLE 11 服务包升级到 SLE 11 SP4。《SUSE Linux Enterprise 11 <citetitle><citetitle>部署指南</citetitle></citetitle>》中说明了这些步骤：<link os="sles" xlink:href="https://www.suse.com/documentation/sles11/"/>。
@@ -88,48 +88,55 @@
     <term>从 SUSE Linux Enterprise 11 SP4 升级</term>
     <listitem>
      <para>
-      只有通过脱机升级才能从 SLE 11 SP4 升级到 SLE 12 SP4。有关详细信息，请参见<xref linkend="cha.update.offline"/>。
+      只有通过脱机升级才能从 SLE 11 SP4 升级到 SLE 12 SP5。有关详细信息，请参见<xref linkend="cha.update.offline"/>。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>从 SUSE Linux Enterprise 12 GA 升级到 SP4</term>
+    <term>从 SUSE Linux Enterprise 12 GA 升级到 SP5</term>
     <listitem>
      <para>
-      不支持直接从 SLE 12 GA 升级到 SP4。请先升级到 SLE 12 <phrase os="sles">SP2 或</phrase> SP3。
+      不支持直接从 SLE 12 GA 升级到 SP5。请先升级到 SLE 12 <phrase os="sles">SP3 或</phrase> SP4。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>从 SUSE Linux Enterprise 12 SP1 升级到 SP4</term>
+    <term>从 SUSE Linux Enterprise 12 SP1 升级到 SP5</term>
     <listitem>
      <para>
-      不支持直接从 SLE 12 SP1 升级到 SP4。请先升级到 SLE 12 <phrase os="sles">SP2 或</phrase> SP3。
+      不支持直接从 SLE 12 SP1 升级到 SP5。请先升级到 SLE 12 <phrase os="sles">SP3 或</phrase> SP4。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>从 SUSE Linux Enterprise 12 SP2 升级到 SP4</term>
+    <term>从 SUSE Linux Enterprise 12 SP2 升级到 SP5</term>
     <listitem>
      <para>
-      支持从 SUSE Linux Enterprise 12 SP2 升级到 SP4。
+      不支持直接从 SLE 12 SP1 升级到 SP5。请先升级到 SLE 12 <phrase os="sles">SP3 或</phrase> SP4。
      </para>
     </listitem>
    </varlistentry>
-
    <varlistentry>
-    <term>从 SUSE Linux Enterprise 12 SP3 升级到 SP4</term>
+    <term>从 SUSE Linux Enterprise 12 SP3 升级到 SP5</term>
     <listitem>
      <para>
-      支持从 SUSE Linux Enterprise 12 SP3 升级到 SP4。
+      支持从 SUSE Linux Enterprise 12 SP3 升级到 SP5。
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>从 SUSE Linux Enterprise 12 SP4 升级到 SP5</term>
+    <listitem>
+     <para>
+      支持从 SUSE Linux Enterprise 12 SP4 升级到 SP5。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>从 SUSE Linux Enterprise 12 LTSS SP1 升级到 SP4</term>
+    <term>从 SUSE Linux Enterprise 12 LTSS SP1 升级到 SP5</term>
     <listitem>
      <para>
-      支持直接从 SUSE Linux Enterprise 12 LTSS SP1 升级到 SP4。
+      支持直接从 SUSE Linux Enterprise 12 LTSS SP1 升级到 SP5。
      </para>
     </listitem>
    </varlistentry>
@@ -163,10 +170,10 @@
    </varlistentry>
   </variablelist>
   <para>
-   只有通过脱机升级才能从 SUSE Linux Enterprise 11 SP4 升级到 SUSE Linux Enterprise 12 SP4。请参见<xref linkend="cha.update.offline"/>。
+   只有通过脱机升级才能从 SUSE Linux Enterprise 11 SP4 升级到 SUSE Linux Enterprise 12 SP5。请参见<xref linkend="cha.update.offline"/>。
   </para>
   <para>
-   支持使用任何脱机和联机方法从 SUSE Linux Enterprise 12 LTSS SP1 升级到 SP4。请参见<xref linkend="cha.update.offline"/>和<xref linkend="cha.update.online"/>。
+   支持使用任何脱机和联机方法从 SUSE Linux Enterprise 12 LTSS SP1 升级到 SP5。请参见<xref linkend="cha.update.offline"/>和<xref linkend="cha.update.online"/>。
   </para>
   <important>
    <title>SUSE Manager 客户端</title>
@@ -385,7 +392,7 @@
       </listitem>
       <listitem>
        <para>
-        安装新 PostgreSQL 主要版本的包。对于 SLE12 SP4，这意味着要安装
+        安装新 PostgreSQL 主要版本的包。对于 SLE12 SP5，这意味着要安装
         <package>postgresql10-server</package>
         及其依赖的所有包。
        </para>

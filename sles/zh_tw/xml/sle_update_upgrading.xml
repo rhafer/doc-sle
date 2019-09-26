@@ -16,7 +16,7 @@
   </dm:docmanager>
  </info>
  <sect1 xml:id="sec.update.sle.paths">
-  <title>受支援的 SLE 12 SP4 升級路徑</title>
+  <title>受支援的 SLE 12 SP5 升級路徑</title>
 
 <figure xml:id="fig.update.sle.paths-overview">
    <title>支援的升級路徑綜覽</title>
@@ -77,7 +77,7 @@
     <term>從 SUSE Linux Enterprise 11 GA/SP1/SP2/SP3 升級</term>
     <listitem>
      <para>
-      不支援直接移轉到 SUSE Linux Enterprise 12 的移轉路徑。您的版本至少需為 SLE 11 SP4，才能升級到 SLE 12 SP4。
+      不支援直接移轉到 SUSE Linux Enterprise 12 的移轉路徑。您的版本至少需為 SLE 11 SP4，才能升級到 SLE 12 SP5。
      </para>
      <para>
       如果不能執行全新安裝，請先將已安裝的 SLE 11 Service Pack 升級到 SLE 11 SP4。《SUSE Linux Enterprise 11 <citetitle><citetitle>部署指南</citetitle></citetitle>》中說明了這些步驟︰<link os="sles" xlink:href="https://www.suse.com/documentation/sles11/"/>。
@@ -88,48 +88,55 @@
     <term>從 SUSE Linux Enterprise 11 SP4 升級</term>
     <listitem>
      <para>
-      只有透過離線升級才能從 SLE 11 SP4 升級至 SLE 12 SP4。如需詳細資訊，請參閱<xref linkend="cha.update.offline"/>。
+      只有透過離線升級才能從 SLE 11 SP4 升級至 SLE 12 SP5。如需詳細資訊，請參閱<xref linkend="cha.update.offline"/>。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>從 SUSE Linux Enterprise 12 GA 升級到 SP4</term>
+    <term>從 SUSE Linux Enterprise 12 GA 升級到 SP5</term>
     <listitem>
      <para>
-      不支援直接從 SLE 12 GA 升級到 SP4。請先升級至 SLE 12 <phrase os="sles">SP2 或</phrase> SP3。
+      不支援直接從 SLE 12 GA 升級到 SP5。請先升級至 SLE 12 <phrase os="sles">SP3 或</phrase> SP4。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>從 SUSE Linux Enterprise 12 SP1 升級至 SP4</term>
+    <term>從 SUSE Linux Enterprise 12 SP1 升級至 SP5</term>
     <listitem>
      <para>
-      不支援直接從 SLE 12 SP1 升級至 SP4。請先升級至 SLE 12 <phrase os="sles">SP2 或</phrase> SP3。
+      不支援直接從 SLE 12 SP1 升級至 SP5。請先升級至 SLE 12 <phrase os="sles">SP3 或</phrase> SP4。
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>從 SUSE Linux Enterprise 12 SP2 升級至 SP5</term>
+    <listitem>
+     <para>
+      不支援直接從 SLE 12 SP2 升級至 SP5。請先升級至 SLE 12 <phrase os="sles">SP3 或</phrase> SP4。
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>從 SUSE Linux Enterprise 12 SP3 升級至 SP5</term>
+    <listitem>
+     <para>
+      支援從 SUSE Linux Enterprise 12 SP3 升級至 SP5。
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>從 SUSE Linux Enterprise 12 SP4 升級至 SP5</term>
+    <listitem>
+     <para>
+      支援從 SUSE Linux Enterprise 12 SP4 升級至 SP5。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>從 SUSE Linux Enterprise 12 SP2 升級至 SP4</term>
+    <term>從 SUSE Linux Enterprise 12 LTSS SP1 升級至 SP5</term>
     <listitem>
      <para>
-      支援從 SUSE Linux Enterprise 12 SP2 升級至 SP4。
-     </para>
-    </listitem>
-   </varlistentry>
-
-   <varlistentry>
-    <term>從 SUSE Linux Enterprise 12 SP3 升級至 SP4</term>
-    <listitem>
-     <para>
-      支援從 SUSE Linux Enterprise 12 SP3 升級至 SP4。
-     </para>
-    </listitem>
-   </varlistentry>
-   <varlistentry os="sles">
-    <term>從 SUSE Linux Enterprise 12 LTSS SP1 升級至 SP4</term>
-    <listitem>
-     <para>
-      支援直接從 SUSE Linux Enterprise 12 LTSS SP1 升級至 SP4。
+      支援直接從 SUSE Linux Enterprise 12 LTSS SP1 升級至 SP5。
      </para>
     </listitem>
    </varlistentry>
@@ -163,10 +170,10 @@
    </varlistentry>
   </variablelist>
   <para>
-   只有透過離線升級才能從 SUSE Linux Enterprise 11 SP4 升級到 SUSE Linux Enterprise 12 SP4。請參閱<xref linkend="cha.update.offline"/>。
+   只有透過離線升級才能從 SUSE Linux Enterprise 11 SP4 升級到 SUSE Linux Enterprise 12 SP5。請參閱<xref linkend="cha.update.offline"/>。
   </para>
   <para>
-   支援使用任何離線和線上方法從 SUSE Linux Enterprise 12 LTSS SP1 升級至 SP4。請參閱<xref linkend="cha.update.offline"/> 和<xref linkend="cha.update.online"/>。
+   支援使用任何離線和線上方法從 SUSE Linux Enterprise 12 LTSS SP1 升級至 SP5。請參閱<xref linkend="cha.update.offline"/> 和<xref linkend="cha.update.online"/>。
   </para>
   <important>
    <title>SUSE Manager 用戶端</title>
@@ -385,7 +392,7 @@
       </listitem>
       <listitem>
        <para>
-        安裝新 PostgreSQL 主要版本的套件。對於 SLE12 SP4，這表示需要安裝
+        安裝新 PostgreSQL 主要版本的套件。對於 SLE12 SP5，這表示需要安裝
         <package>postgresql10-server</package>
         及其相依的所有套件。
        </para>

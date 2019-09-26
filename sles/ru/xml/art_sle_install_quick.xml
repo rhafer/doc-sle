@@ -8,9 +8,11 @@
 
 
  <title><citetitle>Краткое руководство по установке</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 с пакетом обновления 4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise
+ Server</phrase></phrase> <phrase role="productnumber"><phrase
+ os="sles;sled;slerte"> 12 с пакетом обновления 5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
 <?dbtimestamp format="d B Y"?>
 
 </date>
@@ -21,7 +23,7 @@
 
    <para>
     Далее приведены указания по установке новой версии <phrase role="productname"><phrase os="sles">SUSE® Linux Enterprise Server</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 с пакетом обновления 4</phrase></phrase>. В этом документе кратко описывается стандартная процедура установки <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> на компьютерах с архитектурой AMD64 или Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 с пакетом обновления 5</phrase></phrase>. В этом документе кратко описывается стандартная процедура установки <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> на компьютерах с архитектурой AMD64 или Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -129,7 +131,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
      <tip>
       <title>Установка исправлений продуктов во время установки</title>
       <para>
@@ -159,7 +161,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -383,7 +385,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -399,13 +401,13 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
       Во время установки на экране <guimenu>Details</guimenu> (Подробная информация) отображается ход ее выполнения.
      </para>
-     
+
      <informalfigure os="sles">
       <mediaobject>
        <imageobject role="fo">

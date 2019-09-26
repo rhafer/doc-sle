@@ -6,7 +6,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:base="book_sle_deployment.xml" version="5.0" xml:lang="ja" xml:id="book.sle.deployment">
  <info>
   <title><citetitle>導入ガイド</citetitle></title><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><date>
 <?dbtimestamp format="Y"?>
  年 <?dbtimestamp format="B"?>
 月 <?dbtimestamp format="d"?>
@@ -27,10 +27,10 @@
  </info>
  <xi:include href="deployment_intro.xml"/>
  <xi:include href="planning.xml"/>
- 
+
  <part xml:id="part.prep">
   <title>インストールの準備</title>
-  
+
   <xi:include href="deployment_prep_x86.xml"/>
   <xi:include href="deployment_prep_power.xml"/>
   <xi:include href="deployment_prep_zseries.xml"/>

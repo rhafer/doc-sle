@@ -11,7 +11,7 @@
 
  <para>
 
-  サードパーティソフトウェアをインストールするには、追加のソフトウェアリポジトリをシステムに追加します。デフォルトでは、システムを登録すると、<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>や一致するアップデートリポジトリなどの製品リポジトリが自動的に設定されます。<phrase os="sles;sled">登録の詳細については、<xref linkend="sec.i.yast2.conf.manual.cc"/>または<xref linkend="sec.update.registersystem"/></phrase>を参照してください。最初に選択した製品によっては、変換、辞書などを含んだ追加リポジトリも設定される場合があります。
+  サードパーティソフトウェアをインストールするには、追加のソフトウェアリポジトリをシステムに追加します。デフォルトでは、システムを登録すると、<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>や一致するアップデートリポジトリなどの製品リポジトリが自動的に設定されます。<phrase os="sles;sled">登録の詳細については、<xref linkend="sec.i.yast2.conf.manual.cc"/>または<xref linkend="sec.update.registersystem"/></phrase>を参照してください。最初に選択した製品によっては、変換、辞書などを含んだ追加リポジトリも設定される場合があります。
  </para>
 
  <para>

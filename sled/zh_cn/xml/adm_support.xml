@@ -452,7 +452,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable> 
+     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable>
      </term>
      <listitem>
       <para>
@@ -461,7 +461,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>PATH_TO_TARBALL_OR_DIR</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>PATH_TO_TARBALL_OR_DIR</replaceable>
      </term>
      <listitem>
       <para>
@@ -470,7 +470,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable>
      </term>
      <listitem>
       <para>
@@ -635,7 +635,7 @@ setup-sca</screen>
      <step>
       <para>
        设置 Apache 和 MariaDB，并有选择性地设置一个匿名 FTP 服务器。
-       
+
       </para>
      </step>
      <step>
@@ -880,7 +880,7 @@ setup-sca</screen>
      </para>
 <screen>sudo zypper update sca-*</screen>
      <para>
-      默认情况下，将从 SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> 更新储存库安装更新。如果需要，您可以将更新源更改为某台 SMT 服务器。当 <filename>sdagent-patterns</filename> 运行 <command>zypper update sca-patterns-*</command> 时，将从当前配置的更新通道获取更新。如果该通道在 SMT 服务器上，将从该服务器提取包。
+      默认情况下，将从 SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> 更新储存库安装更新。如果需要，您可以将更新源更改为某台 SMT 服务器。当 <filename>sdagent-patterns</filename> 运行 <command>zypper update sca-patterns-*</command> 时，将从当前配置的更新通道获取更新。如果该通道在 SMT 服务器上，将从该服务器提取包。
      </para>
      <procedure>
       <title>禁用 SCA 模式的自动更新</title>
@@ -1181,7 +1181,7 @@ setup-sca</screen>
   <para>
    在安装过程中，<command>supportconfig</command> 不可用。不过，您可以使用 <command>save_y2logs</command> 从 YaST 收集日志文件。该命令会在 <filename>/tmp</filename> 目录下创建一个 <filename>.tar.xz</filename> 存档。
   </para>
-  
+
   <para>
    如果在安装过程中很早就出现问题，您或许可以从 <command>linuxrc</command> 创建的日志文件中收集信息。<command>Linuxrc</command> 是一个在 YaST 启动之前运行的小命令。该日志文件位于 <filename>/var/log/linuxrc.log</filename>。
   </para>
@@ -1252,7 +1252,7 @@ setup-sca</screen>
    <itemizedlist mark="bullet" spacing="normal">
     <listitem>
      <para>
-      Linux 内核：在 SUSE Linux Enterprise <filename>12 SP4</filename> 上，<literal>/proc/sys/kernel/unsupported</literal> 的值默认设为 <phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase>（<literal>装载不支持的模块时，syslog 中不发出警告</literal>）。在安装程序和已安装好的系统中，均会使用此默认值。有关更多信息，请参见 <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>。
+      Linux 内核：在 SUSE Linux Enterprise <filename>12 SP5</filename> 上，<literal>/proc/sys/kernel/unsupported</literal> 的值默认设为 <phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase>（<literal>装载不支持的模块时，syslog 中不发出警告</literal>）。在安装程序和已安装好的系统中，均会使用此默认值。有关更多信息，请参见 <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>。
      </para>
     </listitem>
     <listitem>
@@ -1331,8 +1331,8 @@ setup-sca</screen>
      <link xlink:href="https://mariadb.com/kb/en/"/> — MariaDB 文档。
     </para>
    </listitem>
-   
-   
+
+
    <listitem>
     <para>
      <link xlink:href="http://www.suse.com/communities/conversations/sca-pattern-development/"/> — 有关如何创建（和测试）您自己的 SCA 模式的说明。

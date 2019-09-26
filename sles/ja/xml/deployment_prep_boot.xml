@@ -210,7 +210,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
     </step>
     <step>
      <para>
-      SUSEのWebサイトから、必要なアーキテクチャすべての<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> のDVD ISOイメージをダウンロードします。
+      SUSEのWebサイトから、必要なアーキテクチャすべての<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> のDVD ISOイメージをダウンロードします。
      </para>
     </step>
     <step>
@@ -242,7 +242,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
   </sect2>
   <sect2 xml:id="sec.deployment.prep_boot.pxelinux">
    <title>x86用BIOSファイル</title>
-   
+
    <procedure>
     <step>
      <para>

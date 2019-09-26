@@ -8,9 +8,9 @@
 
 
  <title><citetitle>دليل البدء السريع للتثبيت</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
 <?dbtimestamp format="B d, Y"?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     اتبع الإجراءات التالية لتثبيت إصدار جديد من <phrase role="productname"><phrase os="sles">SUSE® Linux Enterprise Server</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>. يقدم هذا المستند عرضًا سريعًا لكيفية بدء تشغيل التثبيت الافتراضي لبرنامج <phrase role="productname"><phrase os="sles">‎SUSE Linux Enterprise Server‎‎‏</phrase></phrase> للهيكل AMD64/Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>. يقدم هذا المستند عرضًا سريعًا لكيفية بدء تشغيل التثبيت الافتراضي لبرنامج <phrase role="productname"><phrase os="sles">‎SUSE Linux Enterprise Server‎‎‏</phrase></phrase> للهيكل AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -129,7 +129,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
      <tip>
       <title>تثبيت دفعات المنتج أثناء التثبيت</title>
       <para>
@@ -159,7 +159,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -270,7 +270,7 @@
       لإنشاء مستخدم محلي، اكتب الاسمين الأول والأخير في حقل <guimenu>اسم المستخدم كاملاً</guimenu>، واسم تسجيل الدخول في حقل <guimenu>اسم المستخدم</guimenu>، وكلمة السر في حقل <guimenu>كلمة السر</guimenu>.
      </para>
      <para>
-      يجب أن يكون طول كلمة السر ثمانية أحرف على الأقل، ويجب أن تحتوي على أحرف صغيرة وكبيرة وأرقام. الحد الأقصى لطول كلمات السر هو 72 حرفًا، علمًا بأن كلمات السر حساسة لحالة الأحرف. 
+      يجب أن يكون طول كلمة السر ثمانية أحرف على الأقل، ويجب أن تحتوي على أحرف صغيرة وكبيرة وأرقام. الحد الأقصى لطول كلمات السر هو 72 حرفًا، علمًا بأن كلمات السر حساسة لحالة الأحرف.
      </para>
      <para>
       لأسباب تتعلق بالأمان، فإنه يُنصح بشدة <emphasis>عدم</emphasis> تمكين <guimenu>تسجيل الدخول التلقائي</guimenu>. كما ينبغي <emphasis>عدم</emphasis> <guimenu> استخدام كلمة السر هذه لمسؤول النظام </guimenu>وتوفير كلمة سر <systemitem class="username">مسؤول</systemitem> منفصلة في الخطوة التالية للتثبيت. قم بالمتابعة بالنقر فوق <guimenu>التالي</guimenu>.
@@ -383,7 +383,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -399,13 +399,13 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
       أثناء التثبيت، يظهر التقدم بالتفصيل على علامة التبويب <guimenu>التفاصيل</guimenu>.
      </para>
-     
+
      <informalfigure os="sles">
       <mediaobject>
        <imageobject role="fo">

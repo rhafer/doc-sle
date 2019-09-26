@@ -171,7 +171,7 @@
 <!ENTITY productnamereg "<phrase xmlns='http://docbook.org/ns/docbook' role='productname'><phrase os='osuse'>&opensusereg; Leap</phrase><phrase os='sles'>&slsreg;</phrase><phrase os='sled'>&sledreg;</phrase><phrase os='slerte'>&slertereg;</phrase></phrase>">
 <!ENTITY productnameshort "<phrase xmlns='http://docbook.org/ns/docbook' role='productname'><phrase os='osuse'>&opensuse; Leap</phrase><phrase os='sles'>&slsa;</phrase><phrase os='sled'>&sleda;</phrase><phrase os='slerte'>&slerta;</phrase></phrase>">
 <!ENTITY product-ga    "12">
-<!ENTITY product-sp    "4">
+<!ENTITY product-sp    "5">
 <!ENTITY productnumber "<phrase xmlns='http://docbook.org/ns/docbook' role='productnumber'><phrase os='osuse'>42.3</phrase><phrase os='sles;sled;slerte'>&product-ga; SP&product-sp;</phrase></phrase>">
 <!ENTITY cloud         "&suse; &ostack; Cloud">
 <!ENTITY cloud-crow    "&cloud; Crowbar">

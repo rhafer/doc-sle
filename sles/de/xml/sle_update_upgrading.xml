@@ -16,7 +16,7 @@
   </dm:docmanager>
  </info>
  <sect1 xml:id="sec.update.sle.paths">
-  <title>Unterstützte Aufrüstungspfade auf SLE 12 SP4</title>
+  <title>Unterstützte Aufrüstungspfade auf SLE 12 SP5</title>
 
 <figure xml:id="fig.update.sle.paths-overview">
    <title>Überblick über die unterstützten Aufrüstungspfade</title>
@@ -77,7 +77,7 @@
     <term>Aufrüsten von SUSE Linux Enterprise 11 GA, SP1, SP2 oder SP3</term>
     <listitem>
      <para>
-      Es gibt keinen unterstützten direkten Migrationspfad zu SUSE Linux Enterprise 12. Zum Aufrüsten auf SLE 12 SP4 muss mindestens SLE 11 SP4 vorliegen.
+      Es gibt keinen unterstützten direkten Migrationspfad zu SUSE Linux Enterprise 12. Zum Aufrüsten auf SLE 12 SP5 muss mindestens SLE 11 SP4 vorliegen.
      </para>
      <para>
       Falls Sie keine Neuinstallation ausführen können, rüsten Sie zunächst das installierte SLE 11-Service Pack auf SLE 11 SP4 auf. Diese Schritte werden im <citetitle><citetitle>Bereitstellungshandbuch</citetitle></citetitle> für SUSE Linux Enterprise 11 beschrieben: <link os="sles" xlink:href="https://www.suse.com/documentation/sles11/"/>.
@@ -88,48 +88,58 @@
     <term>Aufrüsten von SUSE Linux Enterprise 11 SP4</term>
     <listitem>
      <para>
-      Das Aufrüsten von SLE 11 SP4 auf SLE 12 SP4 wird nur im Offline-Modus unterstützt. Weitere Informationen finden Sie unter <xref linkend="cha.update.offline"/>.
+      Das Aufrüsten von SLE 11 SP4 auf SLE 12 SP5 wird nur im Offline-Modus unterstützt. Weitere Informationen finden Sie unter <xref linkend="cha.update.offline"/>.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>Aufrüsten von SUSE Linux Enterprise 12 GA auf SP4</term>
+    <term>Aufrüsten von SUSE Linux Enterprise 12 GA auf SP5</term>
     <listitem>
      <para>
-      Eine direkte Aufrüstung von SLE 12 GA auf SP4 wird nicht unterstützt. Rüsten Sie zunächst auf auf SLE 12 <phrase os="sles">SP2 oder </phrase> SP3 auf.
+      Eine direkte Aufrüstung von SLE 12 GA auf SP5 wird nicht unterstützt. Rüsten Sie zunächst auf SLE 12 <phrase os="sles">SP3 oder </phrase> SP4 auf.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>Aufrüsten von SUSE Linux Enterprise 12 SP1 auf SP4</term>
+    <term>Aufrüsten von SUSE Linux Enterprise 12 SP1 auf SP5</term>
     <listitem>
      <para>
-      Eine direkte Aufrüstung von SLE 12 SP1 auf SP4 wird nicht unterstützt. Rüsten Sie zunächst auf auf SLE 12 <phrase os="sles">SP2 oder </phrase> SP3 auf.
+      Eine direkte Aufrüstung von SLE 12 SP1 auf SP4 wird nicht unterstützt. Rüsten Sie zunächst auf SLE 12 <phrase os="sles">SP3 oder </phrase> SP4 auf.
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>Aufrüsten von SUSE Linux Enterprise 12 SP2 auf SP5</term>
+    <listitem>
+     <para>
+      Eine direkte Aufrüstung von SLE 12 SP2 auf SP4 wird nicht unterstützt. Rüsten Sie zunächst auf SLE 12 <phrase os="sles">SP3 oder </phrase> SP4 auf.
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>Aufrüsten von SUSE Linux Enterprise 12 SP3 auf SP5</term>
+    <listitem>
+     <para os="sles">
+      Die Aufrüstung von SUSE Linux Enterprise 12 SP3 auf SP5 wird unterstützt.
+     </para>
+     <para os="sled">
+      Eine direkte Aufrüstung von SLE 12 SP3 auf SP4 wird nicht unterstützt. Rüsten Sie zunächst auf SLE 12 SP4 auf.
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry >
+    <term>Aufrüsten von SUSE Linux Enterprise 12 SP4 auf SP5</term>
+    <listitem>
+     <para>
+      Die Aufrüstung von SUSE Linux Enterprise 12 SP4 auf SP5 wird unterstützt.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>Aufrüsten von SUSE Linux Enterprise 12 SP2 auf SP4</term>
+    <term>Aufrüsten von SUSE Linux Enterprise 12 LTSS SP1 auf SP5</term>
     <listitem>
      <para>
-      Die Aufrüstung von SUSE Linux Enterprise 12 SP2 auf SP4 wird unterstützt.
-     </para>
-    </listitem>
-   </varlistentry>
-
-   <varlistentry>
-    <term>Aufrüsten von SUSE Linux Enterprise 12 SP3 auf SP4</term>
-    <listitem>
-     <para>
-      Die Aufrüstung von SUSE Linux Enterprise 12 SP3 auf SP4 wird unterstützt.
-     </para>
-    </listitem>
-   </varlistentry>
-   <varlistentry os="sles">
-    <term>Aufrüsten von SUSE Linux Enterprise 12 LTSS SP1 auf SP4</term>
-    <listitem>
-     <para>
-      Die Aufrüstung von SUSE Linux Enterprise 12 LTSS SP1 direkt auf SP4 wird unterstützt.
+      Die Aufrüstung von SUSE Linux Enterprise 12 LTSS SP1 direkt auf SP5 wird unterstützt.
      </para>
     </listitem>
    </varlistentry>
@@ -163,10 +173,10 @@
    </varlistentry>
   </variablelist>
   <para>
-   Die Aufrüstung von SUSE Linux Enterprise 11 SP4 auf SUSE Linux Enterprise 12 SP4 wird ausschließlich als Offline-Aufrüstung unterstützt. Weitere Informationen hierzu finden Sie in <xref linkend="cha.update.offline"/>.
+   Die Aufrüstung von SUSE Linux Enterprise 11 SP4 auf SUSE Linux Enterprise 12 SP5 wird ausschließlich als Offline-Aufrüstung unterstützt. Weitere Informationen hierzu finden Sie in <xref linkend="cha.update.offline"/>.
   </para>
   <para>
-   Die Aufrüstung von SUSE Linux Enterprise 12 LTSS SP1 auf SP4 wird für alle Offline- und Online-Verfahren unterstützt. Weitere Informationen hierzu finden Sie unter <xref linkend="cha.update.offline"/> und <xref linkend="cha.update.online"/>.
+   Die Aufrüstung von SUSE Linux Enterprise 12 LTSS SP1 auf SP5 wird für alle Offline- und Online-Verfahren unterstützt. Weitere Informationen hierzu finden Sie unter <xref linkend="cha.update.offline"/> und <xref linkend="cha.update.online"/>.
   </para>
   <important>
    <title>SUSE Manager-Clients</title>
@@ -385,7 +395,7 @@
       </listitem>
       <listitem>
        <para>
-        Installieren Sie die Pakete der neuen PostgreSQL-Hauptversion. Bei SLE SP4 installieren Sie
+        Installieren Sie die Pakete der neuen PostgreSQL-Hauptversion. Bei SLE SP5 installieren Sie
         <package>postgresql10-server</package>
         und alle Pakete, von denen dieses Paket abhängig ist.
        </para>

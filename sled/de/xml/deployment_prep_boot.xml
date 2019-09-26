@@ -210,7 +210,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
     </step>
     <step>
      <para>
-      Laden Sie die DVD-ISO-Images für <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SP4</phrase></phrase> für alle benötigten Architekturen von der SUSE-Website herunter.
+      Laden Sie die DVD-ISO-Images für <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SP5</phrase></phrase> für alle benötigten Architekturen von der SUSE-Website herunter.
      </para>
     </step>
     <step>
@@ -242,7 +242,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
   </sect2>
   <sect2 xml:id="sec.deployment.prep_boot.pxelinux">
    <title>BIOS-Dateien für x86</title>
-   
+
    <procedure>
     <step>
      <para>

@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Telepítési gyorskalauz</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="Y. B d."?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     A következő eljárásokkal telepítheti a <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> új verzióját. A jelen dokumentum gyors áttekintést ad arról, hogyan végezhető el a <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> alapértelmezett telepítése AMD64/Intel 64 architektúrán.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> új verzióját. A jelen dokumentum gyors áttekintést ad arról, hogyan végezhető el a <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> alapértelmezett telepítése AMD64/Intel 64 architektúrán.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -119,7 +119,7 @@
      <para>
       Miután legalább egy hálózati csatoló beállítása megtörtént, regisztrálhatja rendszerét a SUSE Ügyfélközpontnál (SCC). Adja meg az SCC-fiókjához tartozó e-mail címet, és a <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> regisztrációs kódját. A sikeres regisztráció a termékfrissítések elérhetőségének és a technikai támogatásra való jogosultság előfeltétele. Kattintson a <guimenu>Következő</guimenu> gombra.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -147,7 +147,7 @@
      <para>
       A rendszer sikeres regisztrációját követően a YaST megjeleníti azoknak a moduloknak és bővítményeknek a listáját, amelyek a <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> rendszerhez elérhetők a SUSE Ügyfélközpontból. A listán szerepelnek ingyenes modulok, például a SUSE Linux Enterprise SDK, illetve olyan bővítmények, amelyek regisztrációs kulcsáért fizetni kell. Ha rákattint a lista egy elemére, megtekintheti a leírását. Másik lehetőségként a modul vagy bővítmény melletti jelölőnégyzet bejelölésével választhatja ki az adott tételt telepítésre. Kattintson a <guimenu>Következő</guimenu> gombra.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase> Bővítmény kiválasztása</phrase>
@@ -188,7 +188,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       Ellenőrizze a rendszer által felkínált partícióbeállítást. Szükség esetén módosítsa. Az alábbi lehetőségek közül lehet választani:
@@ -331,7 +331,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>A Systemd alapértelmezett célja és szolgáltatásai</guimenu>
        </term>
@@ -351,7 +351,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -367,7 +367,7 @@
      <para>
       Amikor befejezte a rendszer beállítását a <guimenu>Telepítési beállítások</guimenu> képernyőn, kattintson a <guimenu>Telepítés</guimenu> gombra. A szoftverválasztéktól függően előfordulhat, hogy a telepítést megerősítő képernyő megjelenése előtt további licencszerződéseket kell elfogadnia. Eddig a pontig nem történik változtatás a rendszeren. Miután másodszor is rákattintott a <guimenu>Telepítés</guimenu> gombra, megindul a telepítési folyamat.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -393,7 +393,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

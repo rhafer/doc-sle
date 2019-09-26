@@ -11,7 +11,7 @@
 
  <para>
 
-  Für die Installation von Drittanbieter-Software müssen Sie zusätzliche Software-Repositorys in das System aufnehmen. Standardmäßig werden die Produkt-Repositorys wie die <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> und das zugehörige Aktualisierungs-Repository automatisch konfiguriert, sobald Sie Ihr System registriert haben. <phrase os="sles;sled"> Weitere Informationen zur Registrierung finden Sie in <xref linkend="sec.i.yast2.conf.manual.cc"/> oder <xref linkend="sec.update.registersystem"/></phrase>. Abhängig vom ursprünglich ausgewählten Produkt kann eventuell auch ein zusätzliches Repository mit Übersetzungen, Wörterbüchern etc. konfiguriert sein.
+  Für die Installation von Drittanbieter-Software müssen Sie zusätzliche Software-Repositorys in das System aufnehmen. Standardmäßig werden die Produkt-Repositorys wie die <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> und das zugehörige Aktualisierungs-Repository automatisch konfiguriert, sobald Sie Ihr System registriert haben. <phrase os="sles;sled"> Weitere Informationen zur Registrierung finden Sie in <xref linkend="sec.i.yast2.conf.manual.cc"/> oder <xref linkend="sec.update.registersystem"/></phrase>. Abhängig vom ursprünglich ausgewählten Produkt kann eventuell auch ein zusätzliches Repository mit Übersetzungen, Wörterbüchern etc. konfiguriert sein.
  </para>
 
  <para>

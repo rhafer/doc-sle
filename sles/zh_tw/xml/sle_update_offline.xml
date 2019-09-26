@@ -48,7 +48,7 @@
    下面的程序說明如何從 DVD 開機，不過，您也可以使用其他本地安裝媒體，例如 USB 大量儲存裝置上的 ISO 影像。要選取的媒體和開機方法取決於系統架構，以及機器使用的是傳統 BIOS 還是 UEFI。
   </para>
   <procedure xml:id="pro.update.sle12.offline.dvd">
-   <title>從 SLE 11 SP4 手動升級到 SLE 12 SP4</title>
+   <title>從 SLE 11 SP4 手動升級到 SLE 12 SP5</title>
    <step>
     <para>
      選取並準備開機媒體，請參閱<xref linkend="sec.i.yast2.startup"/>。
@@ -56,7 +56,7 @@
    </step>
    <step>
     <para>
-     插入 SUSE Linux Enterprise 12 SP4 安裝媒體的 DVD 1 並將機器開機。隨即會依次顯示<guimenu>歡迎使用</guimenu>螢幕和開機螢幕。
+     插入 SUSE Linux Enterprise 12 SP5 安裝媒體的 DVD 1 並將機器開機。隨即會依次顯示<guimenu>歡迎使用</guimenu>螢幕和開機螢幕。
     </para>
    </step>
    <step>
@@ -118,7 +118,7 @@
 
     <step>
      <para>
-      插入 SUSE Linux Enterprise 12 SP4 安裝媒體的 DVD 1 並將機器開機。隨即會依次顯示<guimenu>歡迎使用</guimenu>螢幕和開機螢幕。
+      插入 SUSE Linux Enterprise 12 SP5 安裝媒體的 DVD 1 並將機器開機。隨即會依次顯示<guimenu>歡迎使用</guimenu>螢幕和開機螢幕。
      </para>
     </step>
     <step>
@@ -146,7 +146,7 @@
     </step>
     <step>
      <para>
-      設定 TFTP 伺服器，以存放透過 PXE 開機時所需的開機影像。為此，請使用 SUSE Linux Enterprise 12 SP4 安裝媒體的 DVD 1，或者遵循<xref linkend="sec.deployment.prep_boot.tftp"/>中的指示。
+      設定 TFTP 伺服器，以存放透過 PXE 開機時所需的開機影像。為此，請使用 SUSE Linux Enterprise 12 SP5 安裝媒體的 DVD 1，或者遵循<xref linkend="sec.deployment.prep_boot.tftp"/>中的指示。
      </para>
     </step>
     <step>
@@ -277,13 +277,13 @@
   <para>
    SUSE Manager 是一個伺服器解決方案，用於提供適用於 SUSE Linux Enterprise 用戶端的更新、修補程式和安全性修正程式。它隨附一組工具和一個 Web 式使用者介面，用於執行管理任務。如需 SUSE Manager 的詳細資訊，請參閱<link xlink:href="https://www.suse.com/products/suse-manager/"/>。
   </para>
-  
+
   <para>
    SUSE Manager 可為您提供 SP 移轉或完整系統升級支援。
   </para>
 
   <variablelist>
-   
+
    <varlistentry>
     <term>SP 移轉</term>
     <listitem>
@@ -334,7 +334,7 @@
 <screen><command>zypper</command> ref -s</screen>
 
   <para>
-   此功能在 
+   此功能在
    <package>rollback-helper </package>
    套件中可用。
   </para>

@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Démarrage rapide de l'installation</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop </phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop </phrase></phrase></productname><date>
 <?dbtimestamp format="d B Y"?>
 
 </date>
@@ -20,7 +20,7 @@
    </para>
 
    <para>
-    Utilisez les procédures suivantes pour installer une nouvelle version de <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>. Ce document explique brièvement comment exécuter une installation par défaut de <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> pour l'architecture AMD64/Intel 64.
+    Utilisez les procédures suivantes pour installer une nouvelle version de <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>. Ce document explique brièvement comment exécuter une installation par défaut de <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> pour l'architecture AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -118,7 +118,7 @@
      <para>
       Une fois qu'au moins une interface réseau a été configurée, vous pouvez enregistrer votre système auprès du service clientèle SUSE. Entrez l'adresse électronique associée à votre compte SCC ainsi que le code d'enregistrement pour <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>. La réussite de l'enregistrement constitue une condition préalable à l'obtention des mises à jour produit et à l'accès au support technique. Cliquez ensuite sur <guimenu>Suivant</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -146,7 +146,7 @@
      <para>
       Une fois qu'un système a bien été enregistré, YaST répertorie les modules et extensions disponibles pour <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> à partir de SUSE Customer Center. La liste contient des modules gratuits, tels que le kit de développement logiciel (SDK) SUSE Linux Enterprise, ou des extensions qui nécessitent une clé d'enregistrement payante. Cliquez sur une entrée pour en afficher la description. Vous pouvez également sélectionner un module ou une extension à installer en cochant la case correspondante. Cliquez ensuite sur <guimenu>Suivant</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase>Sélection d'extensions</phrase> </textobject> <imageobject role="fo"> <imagedata fileref="install_extensions_sled.png" width="100%"/> </imageobject> <imageobject role="html"> <imagedata fileref="install_extensions_sled.png" width="100%"/> </imageobject>
@@ -180,7 +180,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       Passez en revue la configuration de la partition proposée par le système. Si besoin, modifiez-la. Vous avez les options suivantes :
@@ -323,7 +323,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>Cible systemd par défaut et services</guimenu>
        </term>
@@ -343,7 +343,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -359,7 +359,7 @@
      <para>
       Une fois la configuration du système finalisée sur l'écran <guimenu>Paramètres d'installation</guimenu>, cliquez sur <guimenu>Installer</guimenu>. En fonction du logiciel que vous avez sélectionné, il se peut que vous deviez accepter un accord de licence avant que l'écran de confirmation de l'installation ne s'affiche. Jusqu'ici, aucune modification n'a été apportée à votre système. Lorsque vous cliquez sur <guimenu>Installer</guimenu> pour la deuxième fois, le processus d'installation démarre.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -385,7 +385,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

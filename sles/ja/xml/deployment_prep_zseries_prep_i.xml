@@ -216,7 +216,7 @@
     <calloutlist>
      <callout arearefs="cobbler.add.identifier">
       <para>
-       配布のカスタム識別子(<quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> z Systems</quote>など)。一意にする必要があります。
+       配布のカスタム識別子(<quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> z Systems</quote>など)。一意にする必要があります。
       </para>
      </callout>
      <callout arearefs="cobbler.add.os">
@@ -316,7 +316,7 @@ DASD=600"</screen>
    <itemizedlist>
     <listitem>
      <para>
-      
+
      </para>
      <para>
       <option>install=hmc:/</option>

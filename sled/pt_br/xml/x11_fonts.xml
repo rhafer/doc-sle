@@ -172,7 +172,7 @@ DejaVuSansMono.ttf: "DejaVu Sans Mono" "Book"</screen>
      Instalar as fontes usando o <command>zypper</command>. Muitas fontes já estão disponíveis como um pacote, seja em sua distribuição do SUSE ou no repositório <link xlink:href="http://download.opensuse.org/repositories/M17N:/fonts/">M17N:fonts</link>. Adicione o repositório à sua lista usando o seguinte comando. Por exemplo, para adicionar um repositório para o SLE 12:
     </para>
 <screen>sudo zypper ar
-     <phrase os="sles;sled">http://download.opensuse.org/repositories/M17N:/fonts/SLE_12_SP4/</phrase></screen>
+     <phrase os="sles;sled">http://download.opensuse.org/repositories/M17N:/fonts/SLE_12_SP5/</phrase></screen>
     <para>
      Para procurar o <replaceable>NOME_DA_FAMÍLIA_DE_FONTES</replaceable> use este comando:
     </para>

@@ -11,7 +11,7 @@
 
  <para>
 
-  Pour installer un logiciel tiers, ajoutez des dépôts de logiciels supplémentaires à votre système. Par défaut, les dépôts de produit tels que le DVD de <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> et le dépôt de mise à jour correspondant, sont automatiquement configurés<phrase os="sles;sled"> une fois le système enregistré. Pour plus d'informations sur l'enregistrement, reportez-vous à la <xref linkend="sec.i.yast2.conf.manual.cc"/> ou à la <xref linkend="sec.update.registersystem"/></phrase>. En fonction du produit initialement sélectionné, un autre dépôt contenant des traductions, des dictionnaires, etc. peut également être configuré.
+  Pour installer un logiciel tiers, ajoutez des dépôts de logiciels supplémentaires à votre système. Par défaut, les dépôts de produit tels que le DVD de <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> et le dépôt de mise à jour correspondant, sont automatiquement configurés<phrase os="sles;sled"> une fois le système enregistré. Pour plus d'informations sur l'enregistrement, reportez-vous à la <xref linkend="sec.i.yast2.conf.manual.cc"/> ou à la <xref linkend="sec.update.registersystem"/></phrase>. En fonction du produit initialement sélectionné, un autre dépôt contenant des traductions, des dictionnaires, etc. peut également être configuré.
  </para>
 
  <para>
@@ -19,7 +19,7 @@
  </para>
 
  <para>
-  Chaque dépôt fournit des fichiers décrivant le contenu du dépôt (noms des paquetage, versions, etc.). Ces fichiers de description du dépôt sont téléchargés dans un cache local utilisé par YaST. Pour garantir leur intégrité, les dépôts de logiciels peuvent être signés avec la clé GPG du mainteneur des dépôts. À chaque fois que vous ajoutez un nouveau dépôt, YaST vous propose d'importer sa clé. 
+  Chaque dépôt fournit des fichiers décrivant le contenu du dépôt (noms des paquetage, versions, etc.). Ces fichiers de description du dépôt sont téléchargés dans un cache local utilisé par YaST. Pour garantir leur intégrité, les dépôts de logiciels peuvent être signés avec la clé GPG du mainteneur des dépôts. À chaque fois que vous ajoutez un nouveau dépôt, YaST vous propose d'importer sa clé.
  </para>
 
  <warning>

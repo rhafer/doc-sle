@@ -16,7 +16,7 @@
   </dm:docmanager>
  </info>
  <sect1 xml:id="sec.update.sle.paths">
-  <title>Chemins de mise à niveau pris en charge vers SLE 12 SP4</title>
+  <title>Chemins de mise à niveau pris en charge vers SLE 12 SP5</title>
 
 <figure xml:id="fig.update.sle.paths-overview">
    <title>Aperçu des chemins de mise à niveau pris en charge</title>
@@ -77,7 +77,7 @@
     <term>Mise à niveau de SUSE Linux Enterprise 11 GA / SP1 / SP2 / SP3</term>
     <listitem>
      <para>
-      Aucun chemin de migration direct vers SUSE Linux Enterprise 12 n'est pris en charge. Avant de pouvoir passer à SLE 12 SP4, vous devez au minimum disposer de SLE 11 SP4.
+      Aucun chemin de migration direct vers SUSE Linux Enterprise 12 n'est pris en charge. Avant de pouvoir passer à SLE 12 SP5, vous devez au minimum disposer de SLE 11 SP4.
      </para>
      <para>
       Si vous ne pouvez pas effectuer une nouvelle installation, commencez par mettre à niveau le Service Pack SLE 11 installé vers SLE 11 SP4. Ces étapes sont décrites dans le <citetitle><citetitle>Guide de déploiement</citetitle></citetitle> de SUSE Linux Enterprise 11 : <link os="sles" xlink:href="https://www.suse.com/documentation/sles11/"/> .
@@ -88,48 +88,59 @@
     <term>Mise à niveau à partir de SUSE Linux Enterprise 11 SP4</term>
     <listitem>
      <para>
-      La mise à niveau de SLE 11 SP4 vers SLE 12 SP4 est uniquement prise en charge via une mise à niveau hors ligne. Reportez-vous au <xref linkend="cha.update.offline"/> pour obtenir des informations détaillées.
+      La mise à niveau de SLE 11 SP4 vers SLE 12 SP5 est uniquement prise en charge via une mise à niveau hors ligne. Reportez-vous au <xref linkend="cha.update.offline"/> pour obtenir des informations détaillées.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>Mise à niveau de SUSE Linux Enterprise 12 GA vers SP4</term>
+    <term>Mise à niveau de SUSE Linux Enterprise 12 GA vers SP5</term>
     <listitem>
      <para>
-      Vous ne pouvez pas mettre à niveau directement SLE 12 GA vers le Service Pack 4. Effectuez d'abord une mise à niveau vers SLE 12 <phrase os="sles">SP2 ou</phrase> SP3.
+      Vous ne pouvez pas mettre à niveau directement SLE 12 GA vers le Service Pack 5. Effectuez d'abord une mise à niveau vers SLE 12 <phrase os="sles">SP3 ou</phrase> SP4.
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>Mise à niveau de SUSE Linux Enterprise 12 SP1 vers SP4</term>
+    <term>Mise à niveau de SUSE Linux Enterprise 12 SP1 vers SP5</term>
     <listitem>
      <para>
-      Une mise à niveau directe de SLE 12 SP1 vers SP4 n'est pas prise en charge. Effectuez d'abord une mise à niveau vers SLE 12 <phrase os="sles">SP2 ou</phrase> SP3.
+      Une mise à niveau directe de SLE 12 SP1 vers SP5 n'est pas prise en charge. Effectuez d'abord une mise à niveau vers SLE 12 <phrase os="sles">SP3 ou</phrase> SP4.
      </para>
     </listitem>
    </varlistentry>
-   <varlistentry os="sles">
-    <term>Mise à niveau de SUSE Linux Enterprise 12 SP2 vers SP4</term>
+   <varlistentry>
+    <term>Mise à niveau de SUSE Linux Enterprise 12 SP2 vers SP5</term>
     <listitem>
      <para>
-      La mise à niveau de SUSE Linux Enterprise 12 SP2 vers SP4 est prise en charge.
+      Une mise à niveau directe de SLE 12 SP2 vers SP5 n'est pas prise en charge. Effectuez d'abord une mise à niveau vers SLE 12 <phrase os="sles">SP3 ou</phrase> SP4.
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>Mise à niveau de SUSE Linux Enterprise 12 SP3 vers SP5</term>
+    <listitem>
+     <para os="sles">
+      La mise à niveau de SUSE Linux Enterprise 12 SP3 vers SP4 est prise en charge.
+     </para>
+     <para os="sled">
+      Une mise à niveau directe de SLE 12 SP2 vers SP5 n'est pas prise en charge. Effectuez d'abord une mise à niveau vers SLE 12 SP4.
+     </para>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term>Mise à niveau de SUSE Linux Enterprise 12 SP4 vers SP5</term>
+    <listitem>
+     <para>
+      La mise à niveau de SUSE Linux Enterprise 12 SP4 vers SP5 est prise en charge.
      </para>
     </listitem>
    </varlistentry>
 
-   <varlistentry>
-    <term>Mise à niveau de SUSE Linux Enterprise 12 SP3 vers SP4</term>
-    <listitem>
-     <para>
-      La mise à niveau de SUSE Linux Enterprise 12 SP3 vers SP4 est prise en charge.
-     </para>
-    </listitem>
-   </varlistentry>
    <varlistentry os="sles">
-    <term>Mise à niveau de SUSE Linux Enterprise 12 LTSS SP1 vers SP4</term>
+    <term>Mise à niveau de SUSE Linux Enterprise 12 LTSS SP1 vers SP5</term>
     <listitem>
      <para>
-      La mise à jour de SUSE Linux Enterprise 12 SP1 vers SP4 est prise en charge.
+      La mise à jour de SUSE Linux Enterprise 12 SP1 vers SP5 est prise en charge.
      </para>
     </listitem>
    </varlistentry>
@@ -163,10 +174,10 @@
    </varlistentry>
   </variablelist>
   <para>
-   La mise à niveau de SUSE Linux Enterprise 11 SP4 vers SUSE Linux Enterprise 12 SP4 est uniquement prise en charge par le biais d'une mise à niveau hors ligne. Reportez-vous au <xref linkend="cha.update.offline"/>.
+   La mise à niveau de SUSE Linux Enterprise 11 SP4 vers SUSE Linux Enterprise 12 SP5 est uniquement prise en charge par le biais d'une mise à niveau hors ligne. Reportez-vous au <xref linkend="cha.update.offline"/>.
   </para>
   <para>
-   La mise à niveau de SUSE Linux Enterprise 12 LTSS SP1 vers SP4 est prise en charge avec toutes les méthodes en ligne et hors ligne. Reportez-vous au <xref linkend="cha.update.offline"/> et au <xref linkend="cha.update.online"/>.
+   La mise à niveau de SUSE Linux Enterprise 12 LTSS SP1 vers SP5 est prise en charge avec toutes les méthodes en ligne et hors ligne. Reportez-vous au <xref linkend="cha.update.offline"/> et au <xref linkend="cha.update.online"/>.
   </para>
   <important>
    <title>clients SUSE Manager</title>
@@ -385,7 +396,7 @@
       </listitem>
       <listitem>
        <para>
-        Installez les paquetages de la nouvelle version majeure de PostgreSQL. Pour SLE12 SP4, cela implique d'installer
+        Installez les paquetages de la nouvelle version majeure de PostgreSQL. Pour SLE12 SP5, cela implique d'installer
         <package>postgresql10-server</package>
         et tous les paquetages dont il dépend.
        </para>

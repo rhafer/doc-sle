@@ -11,7 +11,7 @@
 
  <para>
 
-  Para instalar software de terceiros, adicione repositórios de software ao sistema. Por padrão, os repositórios de produto, como o DVD do <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>, e um repositório de atualização correspondente serão automaticamente configurados<phrase os="sles;sled"> depois que você registrar seu sistema. Para obter mais informações sobre registro, consulte a <xref linkend="sec.i.yast2.conf.manual.cc"/> ou a <xref linkend="sec.update.registersystem"/></phrase>. Dependendo do produto inicialmente selecionado, um outro repositório com traduções, dicionários, etc. também poderá ser configurado.
+  Para instalar software de terceiros, adicione repositórios de software ao sistema. Por padrão, os repositórios de produto, como o DVD do <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>, e um repositório de atualização correspondente serão automaticamente configurados<phrase os="sles;sled"> depois que você registrar seu sistema. Para obter mais informações sobre registro, consulte a <xref linkend="sec.i.yast2.conf.manual.cc"/> ou a <xref linkend="sec.update.registersystem"/></phrase>. Dependendo do produto inicialmente selecionado, um outro repositório com traduções, dicionários, etc. também poderá ser configurado.
  </para>
 
  <para>

@@ -138,7 +138,7 @@
 
  <sect1 xml:id="sec.add-ons.extensions" os="sles">
   <title>Liste des extensions disponibles</title>
-  
+
   <para>
    Les extensions fournissent des fonctionnalités avancées pour des tâches telles que l'application de correctifs à chaud et la mise en grappe haute disponibilité pour <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>. Elles sont proposées sous forme d'abonnements et nécessitent une clé d'enregistrement payante. En règle générale, les extensions ont leurs propres documents de notes de version qui sont disponibles à l'adresse <link xlink:href="https://www.suse.com/releasenotes"/>.
   </para>
@@ -146,7 +146,7 @@
    <varlistentry os="sles">
     <term>High Availability</term>
     <listitem>
-     
+
      <para>
       L'extension High Availability (Haute disponibilité) ajoute la prise en charge de la mise en grappe pour les configurations d'importance stratégique. Parmi les outils inclus, citons Hawk, crm, Pacemaker et Corosync. La prise en charge de la haute disponibilité est incluse dans les abonnements pour SUSE Linux Enterprise Server for SAP Applications et SUSE Linux Enterprise Server for High performance Computing, et est également disponible sous forme d'extension pour SUSE Linux Enterprise Server.
      </para>
@@ -155,7 +155,7 @@
    <varlistentry>
     <term>Live Patching</term>
     <listitem>
-     
+
      <para>
       Avec SUSE Linux Enterprise Live Patching, vous pouvez appliquer des correctifs de kernel essentiels sans arrêter votre système, ce qui réduit le besoin de temps hors service planifiés et augmente la disponibilité des services.
      </para>
@@ -172,7 +172,7 @@
    <varlistentry>
     <term>SUSE OpenStack Cloud 9</term>
     <listitem>
-     
+
      <para>
       SUSE OpenStack Cloud est optimisé par OpenStack, le projet communautaire d'infrastructure cloud Open Source leader, et est fourni avec SUSE Linux Enterprise Server. Le produit est entièrement intégré à l'infrastructure de prise en charge et de maintenance SUSE. Il s'agit d'une solution idéale pour les clients souhaitant déployer un cloud avec des niveaux de stabilité et de support à l'échelle de l'entreprise.
      </para>
@@ -181,7 +181,7 @@
    <varlistentry>
     <term>SUSE OpenStack Cloud Crowbar 9</term>
     <listitem>
-     
+
      <para>
       SUSE OpenStack Cloud Crowbar est une solution logicielle Open Source qui dispose des fonctions fondamentales pour déployer et gérer une infrastructure cloud optimisée par OpenStack, le projet communautaire d'infrastructure cloud Open Source leader. Il gère les workloads et en assure le provisioning en toute transparence au sein d'un environnement cloud hétérogène de manière sécurisée, conforme et entièrement prise en charge.
      </para>
@@ -372,10 +372,10 @@
   </procedure>
  </sect1>
  <sect1 xml:id="sec.add-ons.sdk">
-  <title>Kit SDK SUSE <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></title><indexterm> <primary>logiciel</primary> <secondary>développement</secondary> <tertiary>SDK SUSE</tertiary></indexterm><indexterm> <primary>SDK SUSE</primary></indexterm>
+  <title>Kit SDK SUSE <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></title><indexterm> <primary>logiciel</primary> <secondary>développement</secondary> <tertiary>SDK SUSE</tertiary></indexterm><indexterm> <primary>SDK SUSE</primary></indexterm>
 
   <para>
-   Le kit de développement logiciel SUSE <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> est une extension pour SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>. Il s'agit d'un ensemble d'outils permettant de développer des applications. En fait, pour fournir un système complet, le SDK SUSE <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP 4</phrase></phrase> inclut tous les outils Open Source utilisés pour créer le produit SUSE Linux Enterprise Server. De cette façon, si vous êtes un développeur, un éditeur de logiciels (ISV, Independent Software Vendor) ou un constructeur indépendant de matériel (IHV, Independent Hardware Vendor), vous disposez de tous les outils nécessaires pour acheminer les applications vers toutes les plates-formes prises en charge par SUSE Linux Enterprise Desktop et SUSE Linux Enterprise Server.
+   Le kit de développement logiciel SUSE <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> est une extension pour SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>. Il s'agit d'un ensemble d'outils permettant de développer des applications. En fait, pour fournir un système complet, le SDK SUSE <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP 4</phrase></phrase> inclut tous les outils Open Source utilisés pour créer le produit SUSE Linux Enterprise Server. De cette façon, si vous êtes un développeur, un éditeur de logiciels (ISV, Independent Software Vendor) ou un constructeur indépendant de matériel (IHV, Independent Hardware Vendor), vous disposez de tous les outils nécessaires pour acheminer les applications vers toutes les plates-formes prises en charge par SUSE Linux Enterprise Desktop et SUSE Linux Enterprise Server.
   </para>
 
   <para>

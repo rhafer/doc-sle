@@ -118,12 +118,12 @@
     <listitem>
 
      <para>
-      マルチボリュームBtrfsは、<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>では、RAID0、RAID1、およびRAID10プロファイルでサポートされます。それより高いレベルのRAIDは現時点サポートされませんが、将来のサービスパックでサポートされる可能性があります。
+      マルチボリュームBtrfsは、<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>では、RAID0、RAID1、およびRAID10プロファイルでサポートされます。それより高いレベルのRAIDは現時点サポートされませんが、将来のサービスパックでサポートされる可能性があります。
      </para>
     </listitem>
     <listitem>
      <para>
-      Btrfsのコマンドを使用して、透過圧縮を設定します。 
+      Btrfsのコマンドを使用して、透過圧縮を設定します。
      </para>
     </listitem>
    </itemizedlist>
@@ -537,7 +537,7 @@ sudo mv /backup/bkp_data_2016-07-07 /backup/bkp_data</screen>
    <note>
     <title>使用例</title>
     <para>
-     <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>の時点では、duperemoveはファイルシステム全体の重複排除という用途には適していません。このツールは、仮想マシンイメージなど、大量のブロックが共通する可能性がある10～50個の大容量ファイルの重複排除に使用することを想定しています。
+     <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>の時点では、duperemoveはファイルシステム全体の重複排除という用途には適していません。このツールは、仮想マシンイメージなど、大量のブロックが共通する可能性がある10～50個の大容量ファイルの重複排除に使用することを想定しています。
     </para>
    </note>
    <para>

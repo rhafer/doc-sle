@@ -48,7 +48,7 @@
    次の手順では、DVDからブートする方法を説明していますが、USB大容量ストレージデバイス上のISOイメージなど、他のローカルインストールメディアを使用することもできます。どのメディアとブート方法を選択するかは、システムアーキテクチャと、マシンに従来のBIOSまたはUEFIのどちらが搭載されているかによって決まります。
   </para>
   <procedure xml:id="pro.update.sle12.offline.dvd">
-   <title>SLE 11 SP4からSLE 12 SP4への手動アップグレード</title>
+   <title>SLE 11 SP4からSLE 12 SP5への手動アップグレード</title>
    <step>
     <para>
      ブートメディアを選択して準備します。<xref linkend="sec.i.yast2.startup"/>を参照してください。
@@ -56,7 +56,7 @@
    </step>
    <step>
     <para>
-     SUSE Linux Enterprise 12 SP4インストールメディアのDVDを挿入し、マシンをブートします。<guimenu>ようこそ</guimenu>画面が表示され、続けてブート画面が表示されます。
+     SUSE Linux Enterprise 12 SP5インストールメディアのDVDを挿入し、マシンをブートします。<guimenu>ようこそ</guimenu>画面が表示され、続けてブート画面が表示されます。
     </para>
    </step>
    <step>
@@ -118,7 +118,7 @@
 
     <step>
      <para>
-      SUSE Linux Enterprise 12 SP4インストールメディアのDVDを挿入し、マシンをブートします。<guimenu>ようこそ</guimenu>画面が表示され、続けてブート画面が表示されます。
+      SUSE Linux Enterprise 12 SP5インストールメディアのDVDを挿入し、マシンをブートします。<guimenu>ようこそ</guimenu>画面が表示され、続けてブート画面が表示されます。
      </para>
     </step>
     <step>
@@ -146,7 +146,7 @@
     </step>
     <step>
      <para>
-      PXEブートに必要なブートイメージを保管するTFTPサーバを設定します。これを行うには、SUSE Linux Enterprise 12 SP4インストールメディアのDVDを使用するか、<xref linkend="sec.deployment.prep_boot.tftp"/>の説明に従います。
+      PXEブートに必要なブートイメージを保管するTFTPサーバを設定します。これを行うには、SUSE Linux Enterprise 12 SP5インストールメディアのDVDを使用するか、<xref linkend="sec.deployment.prep_boot.tftp"/>の説明に従います。
      </para>
     </step>
     <step>
@@ -277,13 +277,13 @@
   <para>
    SUSE Managerは、SUSE Linux Enterpriseクライアントに対するアップデート、パッチ、およびセキュリティ修正を提供するためのサーバソリューションです。これには、一連のツールと、管理タスク用のWebベースのユーザインタフェースが付属しています。SUSE Managerの詳細については、<link xlink:href="https://www.suse.com/products/suse-manager/"/>を参照してください。
   </para>
-  
+
   <para>
    SUSE Managerは、SPマイグレーションまたはシステムの完全アップグレードをサポートできます。
   </para>
 
   <variablelist>
-   
+
    <varlistentry>
     <term>SPマイグレーション</term>
     <listitem>

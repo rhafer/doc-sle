@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Skrócona instrukcja instalacji</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
 <?dbtimestamp format="d B Y"?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     Aby zainstalować nową wersję systemu <phrase role="productname"><phrase os="sles">SUSE® Linux Enterprise Server</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>, należy użyć poniższych procedur. Ten dokument zawiera krótkie omówienie domyślnej instalacji systemu <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> w ramach architektury AMD64/Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>, należy użyć poniższych procedur. Ten dokument zawiera krótkie omówienie domyślnej instalacji systemu <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> w ramach architektury AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -129,7 +129,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
      <tip>
       <title>Instalowanie poprawek do produktu w trakcie instalacji</title>
       <para>
@@ -156,10 +156,10 @@
        </imageobject>
        <imageobject role="html">
         <imagedata fileref="install_extensions_sles.png" width="100%"/>
-       </imageobject>       
+       </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -383,7 +383,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -399,13 +399,13 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
       Podczas instalacji jej postęp jest pokazywany na ekranie <guimenu>Details</guimenu> (Szczegóły).
      </para>
-     
+
      <informalfigure os="sles">
       <mediaobject>
        <imageobject role="fo">

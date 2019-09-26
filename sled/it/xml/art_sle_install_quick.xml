@@ -8,10 +8,10 @@
 
 
  <title><citetitle>Riferimento rapido per l'installazione</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 
-12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">
+12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="d B Y"?>
 
 </date>
@@ -22,7 +22,7 @@
 
    <para>
     Utilizzare le procedure riportate di seguito per installare una nuova versione di <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>. Nel presente documento viene fornita una rapida panoramica su come eseguire un'installazione di default di <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> per l'architettura AMD64/Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>. Nel presente documento viene fornita una rapida panoramica su come eseguire un'installazione di default di <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> per l'architettura AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -74,7 +74,7 @@
    <procedure>
     <step>
      <para>
-      Inserire il DVD di <phrase role="productname"><phrase os="sled">di SUSE Linux Enterprise Desktop</phrase></phrase> nell'apposita unità, quindi riavviare il computer per eseguire il programma di installazione. Nei computer dotati di BIOS tradizionale sarà possibile visualizzare la 
+      Inserire il DVD di <phrase role="productname"><phrase os="sled">di SUSE Linux Enterprise Desktop</phrase></phrase> nell'apposita unità, quindi riavviare il computer per eseguire il programma di installazione. Nei computer dotati di BIOS tradizionale sarà possibile visualizzare la
 schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, viene utilizzata una schermata di avvio leggermente diversa. Nei computer dotati di UEFI è supportato l'avvio sicuro.
      </para>
      <para>
@@ -121,7 +121,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
      <para>
       In seguito alla configurazione di almeno un'interfaccia di rete, è possibile registrare il proprio sistema su SUSE Customer Center (SCC). Immettere l'indirizzo e-mail associato all'account SCC e il codice di registrazione di <phrase role="productname"><phrase os="sled"> SUSE Linux Enterprise Desktop</phrase></phrase>. Il completamento della registrazione è un prerequisito per ottenere gli aggiornamenti di prodotto e per avere diritto a ricevere supporto tecnico. Fare clic su <guimenu>Avanti</guimenu> per continuare.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -149,7 +149,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
      <para>
       Terminata la registrazione del sistema, in YaST vengono elencati i moduli e le estensioni disponibili per <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> da SUSE Customer Center. L'elenco contiene moduli gratuiti, come l'SDK di SUSE Linux Enterprise, ed estensioni per cui è necessaria una chiave di registrazione che potrebbe essere a pagamento. Fare clic su una voce per visualizzarne la descrizione. Selezionare facoltativamente un modulo o un'estensione per l'installazione attivando il segno di spunta corrispondente. Fare clic su <guimenu>Avanti</guimenu> per continuare.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase>Selezione di estensioni</phrase>
@@ -190,7 +190,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       Rivedere la configurazione delle partizioni proposta dal sistema. Se necessario, modificarla. Sono disponibili le opzioni seguenti:
@@ -219,7 +219,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </term>
        <listitem>
         <para>
-         Consente di aprire la <guimenu>Modalità di partizionamento per esperti</guimenu> descritta nel <xref linkend="sec.yast2.i_y2_part_expert"/> 
+         Consente di aprire la <guimenu>Modalità di partizionamento per esperti</guimenu> descritta nel <xref linkend="sec.yast2.i_y2_part_expert"/>
         </para>
        </listitem>
       </varlistentry>
@@ -333,7 +333,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>Destinazione di default e servizi di Systemd</guimenu>
        </term>
@@ -353,7 +353,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -369,7 +369,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
      <para>
       Dopo aver completato la configurazione di sistema nella schermata <guimenu>Impostazioni dell'installazione</guimenu>, fare clic su <guimenu>Installa</guimenu>. A seconda della selezione del software, potrebbe essere necessario accettare dei contratti di licenza prima che venga visualizzata la schermata di conferma dell'installazione. Fino a questo momento non è stata effettuata nessuna modifica al sistema. Dopo aver fatto clic su <guimenu>Installa</guimenu> una seconda volta, si avvia il processo di installazione.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -395,7 +395,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

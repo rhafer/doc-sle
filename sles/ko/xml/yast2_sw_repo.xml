@@ -11,7 +11,7 @@
 
  <para>
 
-  타사 소프트웨어를 설치하려면 소프트웨어 리포지토리를 시스템에 추가하십시오. 기본적으로 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>와 같은 제품 리포지토리 및 일치하는 업데이트 리포지토리는 시스템을 등록한 후 자동으로 구성됩니다. <phrase os="sles;sled"> 등록에 대한 자세한 내용은 <xref linkend="sec.i.yast2.conf.manual.cc"/> 또는 <xref linkend="sec.update.registersystem"/></phrase>을 참조하십시오. 처음 선택한 제품에 따라 번역, 사전 등을 포함하는 추가 리포지토리가 구성될 수 있습니다.
+  타사 소프트웨어를 설치하려면 소프트웨어 리포지토리를 시스템에 추가하십시오. 기본적으로 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>와 같은 제품 리포지토리 및 일치하는 업데이트 리포지토리는 시스템을 등록한 후 자동으로 구성됩니다. <phrase os="sles;sled"> 등록에 대한 자세한 내용은 <xref linkend="sec.i.yast2.conf.manual.cc"/> 또는 <xref linkend="sec.update.registersystem"/></phrase>을 참조하십시오. 처음 선택한 제품에 따라 번역, 사전 등을 포함하는 추가 리포지토리가 구성될 수 있습니다.
  </para>
 
  <para>

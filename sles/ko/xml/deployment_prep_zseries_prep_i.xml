@@ -216,7 +216,7 @@
     <calloutlist>
      <callout arearefs="cobbler.add.identifier">
       <para>
-       배포에 대한 사용자 정의 식별자(예: <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> z 시스템</quote>). 고유해야 합니다.
+       배포에 대한 사용자 정의 식별자(예: <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> z 시스템</quote>). 고유해야 합니다.
       </para>
      </callout>
      <callout arearefs="cobbler.add.os">
@@ -328,13 +328,13 @@ DASD=600"</screen>
     </listitem>
     <listitem>
      <para>
-      또는 수동 모드로 <filename>linuxrc</filename>에서 
+      또는 수동 모드로 <filename>linuxrc</filename>에서
      </para>
      <para>
       <emphasis role="italic">설치 시작</emphasis>,
      </para>
      <para>
-      <emphasis role="italic">설치</emphasis>, 
+      <emphasis role="italic">설치</emphasis>,
      </para>
      <para>
       <emphasis role="italic">하드웨어 관리 콘솔</emphasis>을 선택합니다.
@@ -1103,10 +1103,10 @@ ter '+++' to abort).
    <para>
     SSH를 사용하여 이름이 <literal>earth</literal>인 설치 시스템에 연결하려면 <command>ssh -X earth</command>를 실행합니다. 워크스테이션이 Microsoft Windows에서 실행되는 경우 SSH 및 telnet 클라이언트와 <link xlink:href="http://www.chiark.greenend.org.uk/~sgtatham/putty/"/>에서 사용할 수 있는 터미널 에뮬레이터 Putty를 사용하십시오. <guimenu/>연결<menuchoice>
     <guimenu> SSH</guimenu> <guimenu> X11</guimenu> <guimenu> 아래 Putty에서 </guimenu>
-    </menuchoice>X11 전달 활성화를 설정하십시오. 다른 운영 체제를 사용하는 경우 <command>ssh -X earth</command>를 실행하여 <systemitem>earth</systemitem>라는 이름으로 설치 시스템에 연결하십시오. 로컬 X 서버를 사용할 수 있는 경우 SSH를 통한 X-Forwarding이 지원됩니다. 그 외의 경우 YaST가 ncurses를 통한 텍스트 인터페이스를 제공합니다. 
+    </menuchoice>X11 전달 활성화를 설정하십시오. 다른 운영 체제를 사용하는 경우 <command>ssh -X earth</command>를 실행하여 <systemitem>earth</systemitem>라는 이름으로 설치 시스템에 연결하십시오. 로컬 X 서버를 사용할 수 있는 경우 SSH를 통한 X-Forwarding이 지원됩니다. 그 외의 경우 YaST가 ncurses를 통한 텍스트 인터페이스를 제공합니다.
    </para>
    <para>
-    로그인 프롬프트가 나타납니다. <literal>root</literal>를 입력하고 사용자의 비밀번호로 로그인하십시오. <command>yast.ssh</command>를 입력하여 YaST를 시작합니다. YaST에서 설치 과정을 안내합니다. 
+    로그인 프롬프트가 나타납니다. <literal>root</literal>를 입력하고 사용자의 비밀번호로 로그인하십시오. <command>yast.ssh</command>를 입력하여 YaST를 시작합니다. YaST에서 설치 과정을 안내합니다.
    </para>
    <para>
     <xref linkend="cha.inst"/>의 설치 절차에 대한 자세한 설명에 따라 계속 진행하십시오.

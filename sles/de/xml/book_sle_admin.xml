@@ -6,7 +6,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:base="book_sle_admin.xml" version="5.0" xml:lang="de" xml:id="book.sle.admin">
  <info>
   <title><citetitle>Administrationshandbuch</citetitle></title><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><date>
 <?dbtimestamp format="d. B Y"?>
 
 </date>
@@ -38,7 +38,7 @@
   <xi:include href="snapper.xml"/>
   <xi:include href="vnc.xml"/>
   <xi:include href="net_sync.xml"/>
-  
+
  </part>
 
 

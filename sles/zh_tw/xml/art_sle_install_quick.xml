@@ -8,9 +8,9 @@
 
 
  <title><citetitle>安裝快速入門</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
 <?dbtimestamp format="Y"?>
  年 <?dbtimestamp format="B"?>
  月 <?dbtimestamp format="d"?>
@@ -23,7 +23,7 @@
 
    <para>
     依照以下程序安裝新版 <phrase role="productname"><phrase os="sles">SUSE® Linux Enterprise Server</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>。本文簡要介紹了如何使用預設設定安裝適用於 AMD64/Intel 64 架構的 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>。
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>。本文簡要介紹了如何使用預設設定安裝適用於 AMD64/Intel 64 架構的 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>。
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -131,7 +131,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
      <tip>
       <title>在安裝時安裝產品修補程式</title>
       <para>
@@ -161,7 +161,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -385,7 +385,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -401,13 +401,13 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
       安裝期間，<guimenu>詳細資料</guimenu>索引標籤會顯示詳細的安裝進度。
      </para>
-     
+
      <informalfigure os="sles">
       <mediaobject>
        <imageobject role="fo">

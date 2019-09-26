@@ -635,7 +635,7 @@ c..... /var/lib/rpm/Sigmd5</screen>
    <title>支援的組態</title>
    <para>
 
-    從 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> 開始，僅當根分割區的預設子磁碟區組態未變更時，才支援系統復原。
+    從 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> 開始，僅當根分割區的預設子磁碟區組態未變更時，才支援系統復原。
    </para>
   </important>
 

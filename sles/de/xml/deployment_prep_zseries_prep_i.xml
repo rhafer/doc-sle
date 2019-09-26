@@ -216,7 +216,7 @@
     <calloutlist>
      <callout arearefs="cobbler.add.identifier">
       <para>
-       Benutzerdefinierte Kennung für die Distribution, beispielsweise <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> z Systems</quote>. Muss eindeutig sein.
+       Benutzerdefinierte Kennung für die Distribution, beispielsweise <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> z Systems</quote>. Muss eindeutig sein.
       </para>
      </callout>
      <callout arearefs="cobbler.add.os">
@@ -311,7 +311,7 @@ DASD=600"</screen>
     Für die Installation von <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> auf IBM z Systems-Servern wird in der Regel eine Installationsquelle im Netzwerk benötigt. Diese Anforderung kann jedoch möglicherweise nicht in allen Umgebungen erfüllt werden. Bei SUSE Linux Enterprise Server können Sie die vorhandene DVD oder das Flash-Laufwerk der Hardware Management Console (HMC) als Installationsquelle für die Installation in einer logischen Partition (LPAR) verwenden.
    </para>
    <para>
-    Gehen Sie wie folgt vor, um eine mediengebundene Installation über die DVD oder das Flash-Laufwerk der HMC auszuführen: 
+    Gehen Sie wie folgt vor, um eine mediengebundene Installation über die DVD oder das Flash-Laufwerk der HMC auszuführen:
    </para>
    <itemizedlist>
     <listitem>
@@ -394,17 +394,17 @@ DASD=600"</screen>
    <title>Überblick über eine LPAR-Installation</title>
    <step>
     <para>
-     Bereiten Sie die für die Installation benötigten Geräte vor. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.prep_ipl.natlpar"/>. 
+     Bereiten Sie die für die Installation benötigten Geräte vor. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.prep_ipl.natlpar"/>.
     </para>
    </step>
    <step>
     <para>
-     Führen Sie den IPL-(Initial Program Load-)Vorgang für das Installationssystem durch. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.ipling.lpar"/>. 
+     Führen Sie den IPL-(Initial Program Load-)Vorgang für das Installationssystem durch. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.ipling.lpar"/>.
     </para>
    </step>
    <step>
     <para>
-     Konfigurieren Sie das Netzwerk. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.netcfg"/>. 
+     Konfigurieren Sie das Netzwerk. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.netcfg"/>.
     </para>
    </step>
    <step>
@@ -422,17 +422,17 @@ DASD=600"</screen>
    <title>Installationsüberblick über die z/VM-Installation</title>
    <step>
     <para>
-     Bereiten Sie die für die Installation benötigten Geräte vor. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.prep_ipl.vm"/>. 
+     Bereiten Sie die für die Installation benötigten Geräte vor. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.prep_ipl.vm"/>.
     </para>
    </step>
    <step>
     <para>
-     Führen Sie den IPL-(Initial Program Load-)Vorgang für das Installationssystem durch. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.ipling.vm"/>. 
+     Führen Sie den IPL-(Initial Program Load-)Vorgang für das Installationssystem durch. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.ipling.vm"/>.
     </para>
    </step>
    <step>
     <para>
-     Konfigurieren Sie das Netzwerk. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.netcfg"/>. 
+     Konfigurieren Sie das Netzwerk. Weitere Informationen hierzu finden Sie unter <xref linkend="sec.prep.netcfg"/>.
     </para>
    </step>
    <step>
@@ -558,7 +558,7 @@ DIRM USER WITHPASS</screen>
   <sect3 xml:id="sec.prep.prep_ipl.kvm">
    <title>IPL-Vorbereitung der Installation eines KVM-Gasts</title>
    <para>
-    Für die Installation eines KVM-Gasts sind eine XML-Domänendatei, in der die virtuelle Maschine definiert ist, und mindestens ein Image des virtuellen Datenträgers für die Verwendung bei der Installation erforderlich. 
+    Für die Installation eines KVM-Gasts sind eine XML-Domänendatei, in der die virtuelle Maschine definiert ist, und mindestens ein Image des virtuellen Datenträgers für die Verwendung bei der Installation erforderlich.
    </para>
    <sect4 xml:id="sec.prep.prep_ipl.kvm.disk">
     <title>Erstellen eines Image des virtuellen Datenträgers</title>

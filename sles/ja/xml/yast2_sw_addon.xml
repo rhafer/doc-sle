@@ -141,7 +141,7 @@
 
  <sect1 xml:id="sec.add-ons.extensions" os="sles">
   <title>使用可能な拡張機能のリスト</title>
-  
+
   <para>
    拡張機能により、<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>へのLive Patchingや高可用性クラスタリングなどのタスクに対する高度な機能が提供されます。拡張機能はサブスクリプションとして提供されており、有料登録キーを必要とします。通常、拡張機能には<link xlink:href="https://www.suse.com/releasenotes"/>から使用可能な独自のリリースノートドキュメントがあります。
   </para>
@@ -149,7 +149,7 @@
    <varlistentry os="sles">
     <term>高可用性</term>
     <listitem>
-     
+
      <para>
       高可用性拡張機能は、ミッションクリティカルなセットアップに対するクラスタリングサポートを追加します。含まれるツールは、Hawk、crm、Pacemaker、およびCorosyncです。高可用性サポートは、SUSE Linux Enterprise Server for SAP ApplicationsおよびSUSE Linux Enterprise High Performance Computing用のサブスクリプションに含まれ、 SUSE Linux Enterprise Serverの拡張機能としても利用できます。
      </para>
@@ -158,7 +158,7 @@
    <varlistentry>
     <term>Live Patching</term>
     <listitem>
-     
+
      <para>
       SUSE Linux Enterprise Live Patchingを使用することにより、システムをシャットダウンせずに重要なカーネルパッチを実行し、予定されたダウンタイムのニーズを削減して、サービス可用性を高めることができます。
      </para>
@@ -175,7 +175,7 @@
    <varlistentry>
     <term>SUSE OpenStack Cloud 9</term>
     <listitem>
-     
+
      <para>
       SUSE OpenStack Cloudは、OpenStack (主要なコミュニティにより運営される、オープンソースの、クラウドインフラストラクチャプロジェクト)が原動力となっており、SUSE Linux Enterprise Serverにパッケージ化されています。この製品は、SUSE保守およびサポートインフラストラクチャに完全に統合されています。エンタープライズレベルの安定性とサポートを備えたクラウドの展開に関心のあるお客様に最適なソリューションです。
      </para>
@@ -184,7 +184,7 @@
    <varlistentry>
     <term>SUSE OpenStack Cloud Crowbar 9</term>
     <listitem>
-     
+
      <para>
       SUSE OpenStack Cloud Crowbarは、OpenStack (主要なコミュニティにより運営される、オープンソースの、クラウドインフラストラクチャプロジェクト)を原動力とするクラウドインフラストラクチャを展開および管理する基本的な機能を提供する、オープンソースソフトウェアソリューションです。安全で、法令に準拠し、完全にサポートされる方法で、異機種混合のクラウド環境において、ワークロードをシームレスに管理およびプロビジョニングします。
      </para>
@@ -380,7 +380,7 @@
   </procedure>
  </sect1>
  <sect1 xml:id="sec.add-ons.sdk">
-  <title>SUSEソフトウェア開発キット（SDK）<phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></title><indexterm>
+  <title>SUSEソフトウェア開発キット（SDK）<phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></title><indexterm>
 
   <primary>ソフトウェア</primary>
 
@@ -391,7 +391,7 @@
   <primary>SUSE SDK</primary></indexterm>
 
   <para>
-   SUSE ソフトウェア開発キット <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>は、SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>用の拡張機能です。これは、アプリケーション開発用の総合的なツールキットです。事実、総合的な開発システムを提供するために、SUSEソフトウェア開発キット<phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>には、SUSE Linux Enterprise Server製品の開発で使用されたすべてのオープンソースツールが付属しています。このSDKは、開発者、ISV(独立系ソフトウェアベンダ)、またはIHV(独立系ハードウェアベンダ)に、SUSE Linux Enterprise DesktopとSUSE Linux Enterprise Serverがサポートするすべてのプラットフォームにアプリケーションを移植する際に必要となるすべてのツールを提供します。
+   SUSE ソフトウェア開発キット <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>は、SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>用の拡張機能です。これは、アプリケーション開発用の総合的なツールキットです。事実、総合的な開発システムを提供するために、SUSEソフトウェア開発キット<phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>には、SUSE Linux Enterprise Server製品の開発で使用されたすべてのオープンソースツールが付属しています。このSDKは、開発者、ISV(独立系ソフトウェアベンダ)、またはIHV(独立系ハードウェアベンダ)に、SUSE Linux Enterprise DesktopとSUSE Linux Enterprise Serverがサポートするすべてのプラットフォームにアプリケーションを移植する際に必要となるすべてのツールを提供します。
   </para>
 
   <para>

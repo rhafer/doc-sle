@@ -48,7 +48,7 @@
    Di seguito è descritta la procedura di avvio da un DVD, ma è possibile utilizzare anche un altro supporto di installazione locale come un'immagine ISO in un dispositivo di memorizzazione di massa USB. Il supporto e il metodo di avvio da selezionare dipendono dall'architettura del sistema e dalla presenza del BIOS tradizionale o dello UEFI nel computer.
   </para>
   <procedure xml:id="pro.update.sle12.offline.dvd">
-   <title>Upgrade manuale da SLE 11 SP4 a SLE 12 SP4</title>
+   <title>Upgrade manuale da SLE 11 SP4 a SLE 12 SP5</title>
    <step>
     <para>
      Selezionare e preparare un supporto di avvio, vedere <xref linkend="sec.i.yast2.startup"/>.
@@ -277,13 +277,13 @@
   <para>
    SUSE Manager è una soluzione server che fornisce aggiornamenti, patch e correzioni per la sicurezza dei client SUSE Linux Enterprise. Viene fornito in dotazione con un set di strumenti e un'interfaccia utente basata su Web per i task di gestione. Per ulteriori informazioni su SUSE Manager, vedere <link xlink:href="https://www.suse.com/products/suse-manager/"/>.
   </para>
-  
+
   <para>
    SUSE Manager fornisce il supporto necessario per eseguire la migrazione di un Service Pack o l'upgrade di un intero sistema.
   </para>
 
   <variablelist>
-   
+
    <varlistentry>
     <term>Migrazione SP</term>
     <listitem>

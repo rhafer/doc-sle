@@ -216,7 +216,7 @@
     <calloutlist>
      <callout arearefs="cobbler.add.identifier">
       <para>
-       该发行套件的自定义标识符，例如<quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> z Systems</quote>。必须是唯一的。
+       该发行套件的自定义标识符，例如<quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> z Systems</quote>。必须是唯一的。
       </para>
      </callout>
      <callout arearefs="cobbler.add.os">

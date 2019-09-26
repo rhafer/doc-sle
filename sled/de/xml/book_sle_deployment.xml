@@ -6,7 +6,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:base="book_sle_deployment.xml" version="5.0" xml:lang="de" xml:id="book.sle.deployment">
  <info>
   <title><citetitle>Bereitstellungshandbuch</citetitle></title><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><date>
 <?dbtimestamp format="d. B Y"?>
 
 </date>
@@ -24,15 +24,15 @@
   </dm:docmanager>
  </info>
  <xi:include href="deployment_intro.xml"/>
- 
+
  <xi:include href="sled_planning.xml"/>
  <part xml:id="part.prep">
   <title>Installationsvorbereitung</title>
-  
+
   <xi:include href="deployment_prep_x86.xml"/>
-  
-  
-  
+
+
+
  </part>
  <part xml:id="part.mandeploy">
   <title>Der Installations-Workflow</title>

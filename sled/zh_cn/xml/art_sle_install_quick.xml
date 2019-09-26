@@ -8,9 +8,9 @@
 
 
  <title><citetitle>安装快速入门</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Desktop 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Desktop 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="Y"?>
  年 <?dbtimestamp format="B"?>
  月 <?dbtimestamp format="d"?>
@@ -23,7 +23,7 @@
 
    <para>
     按照以下过程安装新版 <phrase role="productname"><phrase os="sled">SUSE® Linux Enter rise Deskt p</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>。本文简要介绍了如何使用默认配置安装适用于 AMD64/Intel 64 体系结构的 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>。
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>。本文简要介绍了如何使用默认配置安装适用于 AMD64/Intel 64 体系结构的 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>。
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -121,7 +121,7 @@
      <para>
       至少已有一个网络接口已配置完毕后，您才能将您的系统注册到 SUSE Customer Center (SCC)。输入与您的 SCC 帐户关联的电子邮件地址以及 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> 的注册代码。成功注册产品是您获取产品更新和有权获得技术支持的前提。单击<guimenu>下一步</guimenu>继续。
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -149,7 +149,7 @@
      <para>
       系统成功注册后，YaST 会列出 SUSE Customer Center 上可用于 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> 的模块和扩展。该列表包含免费模块（如 SUSE Linux Enterprise SDK）或需要付费购买注册密钥的扩展。单击一项可查看其说明。（选择性）您可以激活某个模块或扩展的选中标记来选择安装它。单击<guimenu>下一步</guimenu>继续。
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase>扩展选择</phrase>
@@ -190,7 +190,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       查看系统建议的分区设置。如果需要，可以更改它们。您可以选择以下选项：
@@ -333,7 +333,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>默认 Systemd 目标和服务</guimenu>
        </term>
@@ -353,7 +353,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -369,7 +369,7 @@
      <para>
       在<guimenu>安装设置</guimenu>屏幕上确定了系统配置后，单击<guimenu>安装</guimenu>。根据您做的软件选择，您可能需要同意许可协议，安装确认屏幕才会弹出。到目前为止，我们还未对您的系统进行任何更改。当您再次单击<guimenu>安装</guimenu>后，安装过程即会开始。
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -395,7 +395,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

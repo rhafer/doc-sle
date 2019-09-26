@@ -635,7 +635,7 @@ c..... /var/lib/rpm/Sigmd5</screen>
    <title>サポートされる構成</title>
    <para>
 
-    <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>の時点では、システムのロールバックは、ルートパーティションのデフォルトのサブボリューム設定が変更されていない場合にのみサポートされます。
+    <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>の時点では、システムのロールバックは、ルートパーティションのデフォルトのサブボリューム設定が変更されていない場合にのみサポートされます。
    </para>
   </important>
 

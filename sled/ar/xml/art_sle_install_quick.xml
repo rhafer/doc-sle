@@ -8,9 +8,9 @@
 
 
  <title><citetitle>دليل البدء السريع للتثبيت</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="B d, Y"?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     اتبع الإجراءات التالية لتثبيت إصدار جديد من <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>. يقدم هذا المستند عرضًا سريعًا لكيفية بدء تشغيل التثبيت الافتراضي لبرنامج <phrase role="productname"><phrase os="sled">‎‎‎‎SUSE Linux Enterprise Desktop‎‏</phrase></phrase>‎‎ للهيكل AMD64/Intel-64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>. يقدم هذا المستند عرضًا سريعًا لكيفية بدء تشغيل التثبيت الافتراضي لبرنامج <phrase role="productname"><phrase os="sled">‎‎‎‎SUSE Linux Enterprise Desktop‎‏</phrase></phrase>‎‎ للهيكل AMD64/Intel-64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -119,7 +119,7 @@
      <para>
       بعد تكوين واجهة واحدة على الأقل للشبكة يمكن تسجيل نظامك في مركز عملاء SUSE‏ (SCC). أدخل عنوان البريد الإلكتروني المرتبط بحساب SCC الخاص بك ورمز التسجيل <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>. يعتبر نجاح التسجيل أحد المتطلبات الأساسية للحصول على تحديثات المنتج واستحقاق الدعم الفني. قم بالمتابعة بالنقر فوق <guimenu>التالي</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -147,7 +147,7 @@
      <para>
       بعد تسجيل النظام بنجاح، يعرض YaST قائمة بالوحدات النمطية والملحقات المتاحة في <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop‎‏</phrase></phrase> من مركز عملاء SUSE. تحتوي القائمة على وحدات نمطية مجانية، مثل SUSE Linux Enterprise SDK، فضلاً عن الملحقات التي تتطلب مفتاح تسجيل يخضع للتكلفة. انقر فوق الإدخال لرؤية وصفه. حدد اختياريًا وحدة نمطية أو ملحقًا للتثبيت بتنشيط علامة اختياره. قم بالمتابعة بالنقر فوق <guimenu>التالي</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase>تحديد الملحقات</phrase>
@@ -188,7 +188,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       راجع إعداد القسم المقترح بواسطة النظام. وقم بإجراء تغييرات إذا لزم الأمر. لديك الخيارات التالية:
@@ -256,7 +256,7 @@
       لإنشاء مستخدم محلي، اكتب الاسمين الأول والأخير في حقل <guimenu>اسم المستخدم كاملاً</guimenu>، واسم تسجيل الدخول في حقل <guimenu>اسم المستخدم</guimenu>، وكلمة السر في حقل <guimenu>كلمة السر</guimenu>.
      </para>
      <para>
-      يجب أن يكون طول كلمة السر ثمانية أحرف على الأقل، ويجب أن تحتوي على أحرف صغيرة وكبيرة وأرقام. الحد الأقصى لطول كلمات السر هو 72 حرفًا، علمًا بأن كلمات السر حساسة لحالة الأحرف. 
+      يجب أن يكون طول كلمة السر ثمانية أحرف على الأقل، ويجب أن تحتوي على أحرف صغيرة وكبيرة وأرقام. الحد الأقصى لطول كلمات السر هو 72 حرفًا، علمًا بأن كلمات السر حساسة لحالة الأحرف.
      </para>
      <para>
       لأسباب تتعلق بالأمان، فإنه يُنصح بشدة <emphasis>عدم</emphasis> تمكين <guimenu>تسجيل الدخول التلقائي</guimenu>. كما ينبغي <emphasis>عدم</emphasis> <guimenu> استخدام كلمة السر هذه لمسؤول النظام </guimenu>وتوفير كلمة سر <systemitem class="username">مسؤول</systemitem> منفصلة في الخطوة التالية للتثبيت. قم بالمتابعة بالنقر فوق <guimenu>التالي</guimenu>.
@@ -331,7 +331,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>هدف Systemd وخدماته الافتراضية</guimenu>
        </term>
@@ -351,7 +351,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -367,7 +367,7 @@
      <para>
       بعد الانتهاء من تكوين النظام في شاشة <guimenu>إعدادات التثبيت</guimenu>، انقر فوق <guimenu>تثبيت</guimenu>. وتبعًا لتحديدات البرامج لديك، قد تحتاج إلى الموافقة على اتفاقيات ترخيص قبل ظهور شاشة تأكيد التثبيت. حتى هذه الخطوة لم يتم إجراء أية تغييرات على نظامك. بعد النقر فوق <guimenu>تثبيت</guimenu> للمرة الثانية تبدأ عملية التثبيت.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -393,7 +393,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

@@ -452,7 +452,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable> 
+     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable>
      </term>
      <listitem>
       <para>
@@ -461,7 +461,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>PATH_TO_TARBALL_OR_DIR</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>PATH_TO_TARBALL_OR_DIR</replaceable>
      </term>
      <listitem>
       <para>
@@ -470,7 +470,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>SLES_SERVER.COMPANY.COM</replaceable>
      </term>
      <listitem>
       <para>
@@ -879,7 +879,7 @@ setup-sca</screen>
      </para>
 <screen>sudo zypper update sca-*</screen>
      <para>
-      デフォルトでは、アップデートはSUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>のアップデートリポジトリからインストールされます。必要に応じて、アップデートのソースをSMTサーバに変更できます。<filename>sdagent-patterns</filename>は、<command>zypper update sca-patterns-*</command>を実行する際に、現在設定されているアップデートチャネルからアップデートを取得します。このチャネルがSMTサーバにある場合、パッケージはそこから取得されます。
+      デフォルトでは、アップデートはSUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>のアップデートリポジトリからインストールされます。必要に応じて、アップデートのソースをSMTサーバに変更できます。<filename>sdagent-patterns</filename>は、<command>zypper update sca-patterns-*</command>を実行する際に、現在設定されているアップデートチャネルからアップデートを取得します。このチャネルがSMTサーバにある場合、パッケージはそこから取得されます。
      </para>
      <procedure>
       <title>SCAパターンの自動アップデートの無効化</title>
@@ -1180,7 +1180,7 @@ setup-sca</screen>
   <para>
    インストール時には、<command>supportconfig</command>を使用できません。ただし、<command>save_y2logs</command>を使用してYaSTからログファイルを収集することができます。このコマンドにより、<filename>/tmp</filename>ディレクトリに<filename>.tar.xz</filename>アーカイブが作成されます。
   </para>
-  
+
   <para>
    インストールの開始直後に問題が発生したときは、<command>linuxrc</command>で作成したログファイルから情報を収集できる場合があります。<command>linuxrc</command>は、YaSTが起動する前に実行される小さなコマンドです。このログファイルは、<filename>/var/log/linuxrc.log</filename>にあります。
   </para>
@@ -1251,7 +1251,7 @@ setup-sca</screen>
    <itemizedlist mark="bullet" spacing="normal">
     <listitem>
      <para>
-      Linuxカーネル: SUSE Linux Enterprise <filename>12 SP4</filename>では、<literal>/proc/sys/kernel/unsupported</literal>の値はデフォルトで<phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase>に設定されています(<literal>do not warn in syslog when loading unsupported modules (サポート対象外のカーネルのロード時にsyslogで警告しない)</literal>)。このデフォルト値は、インストーラと、インストールしたシステムで使用されます。詳細については、<filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>を参照してください。
+      Linuxカーネル: SUSE Linux Enterprise <filename>12 SP5</filename>では、<literal>/proc/sys/kernel/unsupported</literal>の値はデフォルトで<phrase role="productnumber"><phrase os="sles;sled;slerte">2</phrase></phrase>に設定されています(<literal>do not warn in syslog when loading unsupported modules (サポート対象外のカーネルのロード時にsyslogで警告しない)</literal>)。このデフォルト値は、インストーラと、インストールしたシステムで使用されます。詳細については、<filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename>を参照してください。
      </para>
     </listitem>
     <listitem>

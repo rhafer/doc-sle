@@ -198,7 +198,7 @@ DejaVuSansMono.ttf: "DejaVu Sans Mono" "Book"</screen>
      使用 <command>zypper</command> 安裝字型。許多字型做為套件提供，隨附在 SUSE 套裝作業系統或位於 <link xlink:href="http://download.opensuse.org/repositories/M17N:/fonts/">M17N:fonts</link> 儲存庫中。使用以下指令將儲存庫新增至清單。例如，若要為 SLE 12 新增儲存庫︰
     </para>
 <screen>sudo zypper ar
-     <phrase os="sles;sled">http://download.opensuse.org/repositories/M17N:/fonts/SLE_12_SP4/</phrase></screen>
+     <phrase os="sles;sled">http://download.opensuse.org/repositories/M17N:/fonts/SLE_12_SP5/</phrase></screen>
     <para>
      若要搜尋 <replaceable>字型系列名稱</replaceable>，請使用下面此指令︰
     </para>

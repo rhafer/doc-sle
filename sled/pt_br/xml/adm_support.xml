@@ -450,7 +450,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable> 
+     <term><command>sudo scatool </command><option>-s</option> <option>-o</option> <replaceable>/opt/sca/reports/</replaceable>
      </term>
      <listitem>
       <para>
@@ -459,7 +459,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>CAMINHO_PARA_TARBALL_OU_DIR</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>CAMINHO_PARA_TARBALL_OU_DIR</replaceable>
      </term>
      <listitem>
       <para>
@@ -468,7 +468,7 @@ Hard Disk:                /dev/sda 10 GB</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><command>sudo scatool </command><option>-a</option> <replaceable>SERVIDOR_SLES.EMPRESA.COM</replaceable> 
+     <term><command>sudo scatool </command><option>-a</option> <replaceable>SERVIDOR_SLES.EMPRESA.COM</replaceable>
      </term>
      <listitem>
       <para>
@@ -630,7 +630,7 @@ setup-sca</screen>
      <step>
       <para>
        Configure o Apache, o MariaDB e, opcionalmente, um servidor FTP anônimo.
-       
+
       </para>
      </step>
      <step>
@@ -875,7 +875,7 @@ setup-sca</screen>
      </para>
 <screen>sudo zypper update sca-*</screen>
      <para>
-      Por padrão, as atualizações são instaladas do repositório de atualização do SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>. Você poderá mudar a fonte das atualizações para um servidor SMT, se desejado. Quando <filename>sdagent-patterns</filename> executa <command>zypper update sca-patterns-*</command>, ele acessa as atualizações do canal de atualização configurado no momento. Se esse canal estiver em um servidor SMT, os pacotes serão acessados de lá.
+      Por padrão, as atualizações são instaladas do repositório de atualização do SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>. Você poderá mudar a fonte das atualizações para um servidor SMT, se desejado. Quando <filename>sdagent-patterns</filename> executa <command>zypper update sca-patterns-*</command>, ele acessa as atualizações do canal de atualização configurado no momento. Se esse canal estiver em um servidor SMT, os pacotes serão acessados de lá.
      </para>
      <procedure>
       <title>Desabilitando atualizações automáticas de padrões da SCA</title>
@@ -1176,7 +1176,7 @@ setup-sca</screen>
   <para>
    Durante a instalação, o <command>supportconfig</command> não está disponível. No entanto, você pode coletar arquivos de registro do YaST usando <command>save_y2logs</command>. Esse comando criará um arquivo <filename>.tar.xz</filename> no diretório <filename>/tmp</filename>.
   </para>
-  
+
   <para>
    Se aparecerem problemas muito no começo da instalação, talvez seja possível coletar informações do arquivo de registro criado por <command>linuxrc</command>. <command>linuxrc</command> é um comando pequeno que é executado antes de o YaST ser iniciado. Esse arquivo de registro está disponível em <filename>/var/log/linuxrc.log</filename>.
   </para>
@@ -1247,7 +1247,7 @@ setup-sca</screen>
    <itemizedlist mark="bullet" spacing="normal">
     <listitem>
      <para>
-      Kernel do Linux: O valor de <filename>/proc/sys/kernel/unsupported</filename> usa o padrão <literal>2</literal> no SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> (<literal>do not warn in syslog when loading unsupported modules</literal>). Esse padrão é usado no instalador e no sistema instalado. Consulte <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename> para obter mais informações.
+      Kernel do Linux: O valor de <filename>/proc/sys/kernel/unsupported</filename> usa o padrão <literal>2</literal> no SUSE Linux Enterprise <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> (<literal>do not warn in syslog when loading unsupported modules</literal>). Esse padrão é usado no instalador e no sistema instalado. Consulte <filename>/usr/src/linux/Documentation/sysctl/kernel.txt</filename> para obter mais informações.
      </para>
     </listitem>
     <listitem>
@@ -1325,8 +1325,8 @@ setup-sca</screen>
      <link xlink:href="https://mariadb.com/kb/en/"/>: A documentação do MariaDB.
     </para>
    </listitem>
-   
-   
+
+
    <listitem>
     <para>
      <link xlink:href="http://www.suse.com/communities/conversations/sca-pattern-development/"/>: Instruções sobre como criar (e testar) seus próprios padrões da SCA.

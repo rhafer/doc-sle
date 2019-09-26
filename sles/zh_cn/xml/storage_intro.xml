@@ -8,7 +8,7 @@
   </dm:docmanager>
  </info>
  <para>
-  本指南提供关于如何管理 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> 上的储存设备的信息。有关分区和管理设备的信息，请参见<xref linkend="cha.advdisk"/>。本指南适用于系统管理员。
+  本指南提供关于如何管理 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> 上的储存设备的信息。有关分区和管理设备的信息，请参见<xref linkend="cha.advdisk"/>。本指南适用于系统管理员。
  </para>
  <xi:include href="common_intro_available_doc_i.xml"/>
  <xi:include href="common_intro_feedback_i.xml"/>

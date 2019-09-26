@@ -16,7 +16,7 @@
   </dm:docmanager>
  </info>
  <sect1 xml:id="sec.update.sle.paths">
-  <title>SLE SP4へのサポートされているアップグレードパス</title>
+  <title>SLE 12 SP5へのサポートされているアップグレードパス</title>
 
 <figure xml:id="fig.update.sle.paths-overview">
    <title>サポートされているアップグレードパスの概要</title>
@@ -77,7 +77,7 @@
     <term>SUSE Linux Enterprise 11 GA/SP1/SP2/SP3からのアップグレード</term>
     <listitem>
      <para>
-      SUSE Linux Enterprise 12への直接的なマイグレーションパスはサポートされていません。SLE 12 SP4に進むには、まずSLE 11 SP4が必要です。
+      SUSE Linux Enterprise 12への直接的なマイグレーションパスはサポートされていません。SLE 12 SP5に進むには、まずSLE 11 SP4が必要です。
      </para>
      <para>
       新規インストールを行うことができない場合は、まず、インストールされているSLE 11のサービスパックをSLE 11 SP4にアップグレードします。これらのステップについては、SUSE Linux Enterprise 11の<citetitle><citetitle/></citetitle>「導入ガイド」で説明しています(<link os="sles" xlink:href="https://www.suse.com/documentation/sles11/"/>)。
@@ -88,48 +88,57 @@
     <term>SUSE Linux Enterprise 11 SP4からのアップグレード</term>
     <listitem>
      <para>
-      SLE 11 SP4からSLE 12 SP 4へのアップグレードは、オフラインアップグレードでのみサポートされます。詳細については、<xref linkend="cha.update.offline"/>を参照してください。
+      SLE 11 SP4からSLE 12 SP5へのアップグレードは、オフラインアップグレードでのみサポートされます。詳細については、<xref linkend="cha.update.offline"/>を参照してください。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>SUSE Linux Enterprise 12 GAからSP4へのアップグレード</term>
+    <term>SUSE Linux Enterprise 12 GAからSP5へのアップグレード</term>
     <listitem>
      <para>
-      SLE 12 GAからSP4へ直接アップグレードすることはできません。まず、SLE 12 <phrase os="sles">SP2または</phrase>SP3にアップグレードします。
+      SLE 12 GAからSP5へ直接アップグレードすることはできません。まず、SLE 12 <phrase os="sles">SP3または</phrase>SP4にアップグレードします。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term>SUSE Linux Enterprise 12 SP1からSP4へのアップグレード</term>
+    <term>SUSE Linux Enterprise 12 SP1からSP5へのアップグレード</term>
     <listitem>
      <para>
-      SLE 12 SP1からSP4への直接アップグレードはサポートされていません。まず、SLE 12 <phrase os="sles">SP2または</phrase>SP3にアップグレードします。
+      SLE 12 SP1からSP5への直接アップグレードはサポートされていません。まず、SLE 12 <phrase os="sles">SP3または</phrase>SP4にアップグレードします。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>SUSE Linux Enterprise 12 SP2からSP4へのアップグレード</term>
+    <term>SUSE Linux Enterprise 12 SP2からSP5へのアップグレード</term>
     <listitem>
      <para>
-      SUSE Linux Enterprise 12 SP2からSP4へのアップグレードはサポートされます。
+      SLE 12 SP2からSP5への直接アップグレードはサポートされていません。まず、SLE 12 <phrase os="sles">SP3または</phrase>SP4にアップグレードします。
      </para>
     </listitem>
    </varlistentry>
 
    <varlistentry>
-    <term>SUSE Linux Enterprise 12 SP3からSP4へのアップグレード</term>
+    <term>SUSE Linux Enterprise 12 SP3からSP5へのアップグレード</term>
     <listitem>
      <para>
-      SUSE Linux Enterprise 12 SP3からSP4へのアップグレードはサポートされます。
+      SUSE Linux Enterprise 12 SP3からSP5へのアップグレードはサポートされます。
+     </para>
+    </listitem>
+   </varlistentry>
+
+   <varlistentry>
+    <term>SUSE Linux Enterprise 12 SP4からSP5へのアップグレード</term>
+    <listitem>
+     <para>
+      SUSE Linux Enterprise 12 SP4からSP5へのアップグレードはサポートされます。
      </para>
     </listitem>
    </varlistentry>
    <varlistentry os="sles">
-    <term>SUSE Linux Enterprise 12 LTSS SP1からSP4へのアップグレード</term>
+    <term>SUSE Linux Enterprise 12 LTSS SP1からSP5へのアップグレード</term>
     <listitem>
      <para>
-      SUSE Linux Enterprise 12 LTSS SP1からSP4への直接アップグレードはサポートされます。
+      SUSE Linux Enterprise 12 LTSS SP1からSP5への直接アップグレードはサポートされます。
      </para>
     </listitem>
    </varlistentry>
@@ -163,10 +172,10 @@
    </varlistentry>
   </variablelist>
   <para>
-   SUSE Linux Enterprise 11 SP4からSUSE Linux Enterprise 12 SP4へのアップグレードは、オフラインアップグレードでのみサポートされます。詳細については、<xref linkend="cha.update.offline"/>を参照してください。
+   SUSE Linux Enterprise 11 SP4からSUSE Linux Enterprise 12 SP5へのアップグレードは、オフラインアップグレードでのみサポートされます。詳細については、<xref linkend="cha.update.offline"/>を参照してください。
   </para>
   <para>
-   SUSE Linux Enterprise 12 LTSS SP1からSP4へのアップグレードは、すべてのオフラインおよびオンライン方法を使用してサポートされています。<xref linkend="cha.update.offline"/>および<xref linkend="cha.update.online"/>を参照してください。
+   SUSE Linux Enterprise 12 LTSS SP1からSP5へのアップグレードは、すべてのオフラインおよびオンライン方法を使用してサポートされています。<xref linkend="cha.update.offline"/>および<xref linkend="cha.update.online"/>を参照してください。
   </para>
   <important>
    <title>SUSE Managerクライアント</title>
@@ -385,7 +394,7 @@
       </listitem>
       <listitem>
        <para>
-        新規のPostgreSQLのメジャーバージョンのパッケージをインストールします。SLES12 SP4の場合、これは
+        新規のPostgreSQLのメジャーバージョンのパッケージをインストールします。SLES12 SP5の場合、これは
         <package>postgresql10-server</package>
         およびそれが依存するすべてのパッケージのインストールを意味します。
        </para>

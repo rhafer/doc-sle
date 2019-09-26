@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Riferimento rapido per l'installazione</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sles"/></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte">SUSE Linux Enterprise Server 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase></productname><date>
 <?dbtimestamp format="d B Y"?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     Utilizzare le procedure riportate di seguito per installare una nuova versione di <phrase role="productname"><phrase os="sles">SUSE® Linux Enterprise Server</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>. Nel presente documento viene fornita una rapida panoramica su come eseguire un'installazione di default di <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> per l'architettura AMD64/Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>. Nel presente documento viene fornita una rapida panoramica su come eseguire un'installazione di default di <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> per l'architettura AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -73,7 +73,7 @@
    <procedure>
     <step>
      <para>
-      Inserire il DVD di <phrase role="productname"><phrase os="sles">di SUSE Linux Enterprise Server</phrase></phrase> nell'apposita unità, quindi riavviare il computer per eseguire il programma di installazione. Nei computer dotati di BIOS tradizionale sarà possibile visualizzare la 
+      Inserire il DVD di <phrase role="productname"><phrase os="sles">di SUSE Linux Enterprise Server</phrase></phrase> nell'apposita unità, quindi riavviare il computer per eseguire il programma di installazione. Nei computer dotati di BIOS tradizionale sarà possibile visualizzare la
 schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, viene utilizzata una schermata di avvio leggermente diversa. Nei computer dotati di UEFI è supportato l'avvio sicuro.
      </para>
      <para>
@@ -130,7 +130,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
      <tip>
       <title>installazione delle patch di prodotto al momento dell'installazione</title>
       <para>
@@ -160,7 +160,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -232,7 +232,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </term>
        <listitem>
         <para>
-         Consente di aprire la <guimenu>Modalità di partizionamento per esperti</guimenu> descritta nel <xref linkend="sec.yast2.i_y2_part_expert"/> 
+         Consente di aprire la <guimenu>Modalità di partizionamento per esperti</guimenu> descritta nel <xref linkend="sec.yast2.i_y2_part_expert"/>
         </para>
        </listitem>
       </varlistentry>
@@ -384,7 +384,7 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
@@ -400,13 +400,13 @@ schermata di avvio grafica riportata di seguito. Nei computer dotati di UEFI, vi
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>
       Durante il processo, i dettagli relativi all'avanzamento dell'installazione vengono visualizzati nella scheda <guimenu>Dettagli</guimenu>.
      </para>
-     
+
      <informalfigure os="sles">
       <mediaobject>
        <imageobject role="fo">

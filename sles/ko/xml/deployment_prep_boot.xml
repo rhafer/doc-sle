@@ -110,7 +110,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
    <procedure xml:id="proc.deployment.prep_boot.tftp.yast">
     <step>
      <para>
-      <systemitem class="username">root</systemitem>로 로그인합니다. 
+      <systemitem class="username">root</systemitem>로 로그인합니다.
      </para>
     </step>
     <step>
@@ -210,7 +210,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
     </step>
     <step>
      <para>
-      SUSE 웹사이트에서 필요한 모든 아키텍처용 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>의 DVD ISO 이미지를 다운로드합니다.
+      SUSE 웹사이트에서 필요한 모든 아키텍처용 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>의 DVD ISO 이미지를 다운로드합니다.
      </para>
     </step>
     <step>
@@ -242,7 +242,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
   </sect2>
   <sect2 xml:id="sec.deployment.prep_boot.pxelinux">
    <title>x86용 BIOS 파일</title>
-   
+
    <procedure>
     <step>
      <para>
@@ -649,7 +649,7 @@ F10 <replaceable>FILENAME</replaceable></screen>
   <procedure xml:id="proc.deployment.prep_boot.wolyast">
    <step>
     <para>
-     <systemitem class="username">root</systemitem>로 로그인합니다. 
+     <systemitem class="username">root</systemitem>로 로그인합니다.
     </para>
    </step>
    <step>

@@ -11,7 +11,7 @@
 
  <para>
 
-  若要安裝協力廠商軟體，請將額外的軟體儲存庫新增至您的系統。依預設，當您註冊系統後，產品儲存庫 (例如 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>) 和相符的更新儲存庫會自動設定好。<phrase os="sles;sled">如需有關註冊的詳細資訊，請參閱<xref linkend="sec.i.yast2.conf.manual.cc"/>或<xref linkend="sec.update.registersystem"/></phrase>。視您最初所選的產品而定，可能還會設定包含翻譯、字典等的獨立語言附加產品儲存庫。
+  若要安裝協力廠商軟體，請將額外的軟體儲存庫新增至您的系統。依預設，當您註冊系統後，產品儲存庫 (例如 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>) 和相符的更新儲存庫會自動設定好。<phrase os="sles;sled">如需有關註冊的詳細資訊，請參閱<xref linkend="sec.i.yast2.conf.manual.cc"/>或<xref linkend="sec.update.registersystem"/></phrase>。視您最初所選的產品而定，可能還會設定包含翻譯、字典等的獨立語言附加產品儲存庫。
  </para>
 
  <para>

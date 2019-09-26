@@ -118,7 +118,7 @@
     <listitem>
 
      <para>
-      <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> }12 SP4</phrase></phrase> 中的 RAID0、RAID1 和 RAID10 配置文件支持多卷 Btrfs。更高的 RAID 级别尚不受支持，但安装将来发布的服务包后可能会支持。
+      <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> }12 SP5</phrase></phrase> 中的 RAID0、RAID1 和 RAID10 配置文件支持多卷 Btrfs。更高的 RAID 级别尚不受支持，但安装将来发布的服务包后可能会支持。
      </para>
     </listitem>
     <listitem>
@@ -537,7 +537,7 @@ sudo mv /backup/bkp_data_2016-07-07 /backup/bkp_data</screen>
    <note>
     <title>使用案例</title>
     <para>
-     从 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> 开始，duperemove 不再适用于对整个文件系统执行重复数据删除。它主要用于对 10 到 50 个为一组的大型文件执行重复数据删除操作（这些文件可能具有许多通用块，例如虚拟机映像）。
+     从 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> 开始，duperemove 不再适用于对整个文件系统执行重复数据删除。它主要用于对 10 到 50 个为一组的大型文件执行重复数据删除操作（这些文件可能具有许多通用块，例如虚拟机映像）。
     </para>
    </note>
    <para>

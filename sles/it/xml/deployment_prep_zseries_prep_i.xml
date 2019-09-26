@@ -216,7 +216,7 @@
     <calloutlist>
      <callout arearefs="cobbler.add.identifier">
       <para>
-       Identificatore personalizzato per la distribuzione, ad esempio <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> z Systems</quote>. Deve essere univoco.
+       Identificatore personalizzato per la distribuzione, ad esempio <quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> z Systems</quote>. Deve essere univoco.
       </para>
      </callout>
      <callout arearefs="cobbler.add.os">

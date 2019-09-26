@@ -118,7 +118,7 @@
     <listitem>
 
      <para>
-      <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> 中的 RAID0、RAID1 和 RAID10 組態檔案支援多磁碟區 Btrfs。尚不支援更高的 RAID 層級，但安裝未來發佈的 Service Pack 後可能會支援。
+      <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> 中的 RAID0、RAID1 和 RAID10 組態檔案支援多磁碟區 Btrfs。尚不支援更高的 RAID 層級，但安裝未來發佈的 Service Pack 後可能會支援。
      </para>
     </listitem>
     <listitem>
@@ -530,14 +530,14 @@ sudo mv /backup/bkp_data_2016-07-07 /backup/bkp_data</screen>
   <sect2 xml:id="sec.filesystems.major.btrfs.deduplication">
    <title>重複資料刪除支援</title>
    <para>
-    Btrfs 支援重複資料刪除功能，具體方式為以指向公用儲存位置中之區塊單一副本的邏輯連結取代檔案系統中完全相同的區塊。<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> 提供了 <command>duperemove</command> 工具，可掃描檔案系統中有無完全相同的區塊。在 Btrfs 檔案系統上使用時，它也可以用來對這些區塊執行重複資料刪除。系統上預設不會安裝 <command>duperemove</command>。若要使此功能可用，請安裝套件 
+    Btrfs 支援重複資料刪除功能，具體方式為以指向公用儲存位置中之區塊單一副本的邏輯連結取代檔案系統中完全相同的區塊。<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> 提供了 <command>duperemove</command> 工具，可掃描檔案系統中有無完全相同的區塊。在 Btrfs 檔案系統上使用時，它也可以用來對這些區塊執行重複資料刪除。系統上預設不會安裝 <command>duperemove</command>。若要使此功能可用，請安裝套件
     <package>duperemove</package>
     。
    </para>
    <note>
     <title>使用案例</title>
     <para>
-     從 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase> 開始，duperemove 不再適用於對整個檔案系統執行重複資料刪除。它主要用於對 10 到 50 個為一組的大型檔案執行重複資料刪除操作。這些檔案可能具有許多公用區塊，例如虛擬機器影像。
+     從 <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase> 開始，duperemove 不再適用於對整個檔案系統執行重複資料刪除。它主要用於對 10 到 50 個為一組的大型檔案執行重複資料刪除操作。這些檔案可能具有許多公用區塊，例如虛擬機器影像。
     </para>
    </note>
    <para>

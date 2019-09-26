@@ -635,7 +635,7 @@ c..... /var/lib/rpm/Sigmd5</screen>
    <title>サポートされる構成</title>
    <para>
 
-    <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>の時点では、システムのロールバックは、ルートパーティションのデフォルトのサブボリューム設定が変更されていない場合にのみサポートされます。
+    <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>の時点では、システムのロールバックは、ルートパーティションのデフォルトのサブボリューム設定が変更されていない場合にのみサポートされます。
    </para>
   </important>
 
@@ -1647,7 +1647,7 @@ NUMBER_MIN_AGE=864000</screen>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><literal>TIMELINE_LIMIT_DAILY</literal>、<literal>TIMELINE_LIMIT_HOURLY</literal>、<literal>TIMELINE_LIMIT_MONTHLY</literal>、 
+     <term><literal>TIMELINE_LIMIT_DAILY</literal>、<literal>TIMELINE_LIMIT_HOURLY</literal>、<literal>TIMELINE_LIMIT_MONTHLY</literal>、
 <literal>TIMELINE_LIMIT_WEEKLY</literal>、<literal>TIMELINE_LIMIT_YEARLY</literal>
      </term>
      <listitem>

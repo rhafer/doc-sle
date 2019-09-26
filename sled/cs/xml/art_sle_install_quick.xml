@@ -8,9 +8,9 @@
 
 
  <title><citetitle>Rychlá instalace</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="d. B Y"?>
 
 </date>
@@ -21,7 +21,7 @@
 
    <para>
     Pomocí následujících postupů nainstalujete systém <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>. Tato dokumentace přináší přehled, jak provést výchozí instalaci <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> pro architekturu AMD64/Intel 64.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>. Tato dokumentace přináší přehled, jak provést výchozí instalaci <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> pro architekturu AMD64/Intel 64.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -117,9 +117,9 @@
       Bude provedena analýza systému, během které instalační program detekuje úložná zařízení a pokusí se vyhledat jiné nainstalované systémy. Pokud není během spuštění instalačního systému možné automaticky konfigurovat síť, otevře se dialog <guimenu>Nastavení sítě</guimenu>.
      </para>
      <para>
-      Po konfiguraci alespoň jednoho síťového rozhraní můžete svůj systém registrovat v zákaznickém centru SUSE. Zadejte e-mailovou adresu asociovanou s vaším účtem SCC a registrační kód pro systém <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>. Úspěšná registrace je předpokladem pro získávání aktualizací produktu a čerpání zákaznické podpory. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>. 
+      Po konfiguraci alespoň jednoho síťového rozhraní můžete svůj systém registrovat v zákaznickém centru SUSE. Zadejte e-mailovou adresu asociovanou s vaším účtem SCC a registrační kód pro systém <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>. Úspěšná registrace je předpokladem pro získávání aktualizací produktu a čerpání zákaznické podpory. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -145,9 +145,9 @@
     </step>
     <step>
      <para>
-      Po úspěšné registraci systému nástroj YaST zobrazí seznam modulů a rozšíření dostupných pro systém <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> v zákaznickém centru SUSE. Seznam obsahuje bezplatné moduly, například sadu SUSE Linux Enterprise SDK, i rozšíření vyžadující placený registrační klíč. Klepnutím na libovolnou položku zobrazíte její popis. Volitelně můžete zaškrtnutím vybrat modul nebo rozšíření k instalaci. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>. 
+      Po úspěšné registraci systému nástroj YaST zobrazí seznam modulů a rozšíření dostupných pro systém <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> v zákaznickém centru SUSE. Seznam obsahuje bezplatné moduly, například sadu SUSE Linux Enterprise SDK, i rozšíření vyžadující placený registrační klíč. Klepnutím na libovolnou položku zobrazíte její popis. Volitelně můžete zaškrtnutím vybrat modul nebo rozšíření k instalaci. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase> Výběr rozšíření</phrase>
@@ -188,7 +188,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       Zkontrolujte nastavení oddílů navržené systémem. V případě potřeby je změňte. Máte k dispozici následující možnosti:
@@ -238,7 +238,7 @@
     </step>
     <step>
      <para>
-      Nastavte hodiny a časové pásmo, které chcete v systému použít. Chcete-li ručně přizpůsobit čas nebo konfigurovat server NTP pro synchronizaci času, použijte možnost <guimenu>Ostatní nastavení</guimenu>. Další informace naleznete v tématu <xref linkend="sec.i.yast2.timezone"/>. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>. 
+      Nastavte hodiny a časové pásmo, které chcete v systému použít. Chcete-li ručně přizpůsobit čas nebo konfigurovat server NTP pro synchronizaci času, použijte možnost <guimenu>Ostatní nastavení</guimenu>. Další informace naleznete v tématu <xref linkend="sec.i.yast2.timezone"/>. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>.
      </para>
      <informalfigure>
       <mediaobject>
@@ -277,7 +277,7 @@
       Zadejte heslo pro účet správce systému (nazývá se uživatel <systemitem class="username">root</systemitem>).
      </para>
      <para>
-      Heslo uživatele <systemitem class="username">root</systemitem> byste neměli nikdy zapomenout! Poté, co zde heslo zadáte, je nelze znovu získat. Další informace naleznete v části <xref linkend="sec.i.yast2.user.root"/>. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>. 
+      Heslo uživatele <systemitem class="username">root</systemitem> byste neměli nikdy zapomenout! Poté, co zde heslo zadáte, je nelze znovu získat. Další informace naleznete v části <xref linkend="sec.i.yast2.user.root"/>. Pokračujte klepnutím na tlačítko <guimenu>Další</guimenu>.
      </para>
      <informalfigure>
       <mediaobject>
@@ -331,7 +331,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>Výchozí cíl démonu Systemd a služby</guimenu>
        </term>
@@ -351,7 +351,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -367,7 +367,7 @@
      <para>
       Po dokončení konfigurace systému na obrazovce <guimenu>Instalační nastavení</guimenu> klepněte na položku <guimenu>Instalovat</guimenu>. V závislosti na vybraném softwaru může být před zobrazením obrazovky potvrzující instalaci nutné souhlasit s licenčními smlouvami. Do této chvíle nebyly ve vašem systému provedeny žádné změny. Pokud klepnete na položku <guimenu>Instalovat</guimenu> podruhé, spustí se proces instalace.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -393,7 +393,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

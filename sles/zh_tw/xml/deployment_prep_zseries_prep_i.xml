@@ -216,7 +216,7 @@
     <calloutlist>
      <callout arearefs="cobbler.add.identifier">
       <para>
-       該套裝作業系統的自訂識別碼，例如<quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase> z Systems</quote>。必須唯一。
+       該套裝作業系統的自訂識別碼，例如<quote>SLES <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase> z Systems</quote>。必須唯一。
       </para>
      </callout>
      <callout arearefs="cobbler.add.os">
@@ -316,10 +316,10 @@ DASD=600"</screen>
    <itemizedlist>
     <listitem>
      <para>
-      將 
+      將
      </para>
      <para>
-      <option>install=hmc:/</option> 
+      <option>install=hmc:/</option>
      </para>
      <para>
       新增至 <filename>parmfile</filename> (參閱<xref linkend="sec.appdendix.parm"/>) 或核心選項。

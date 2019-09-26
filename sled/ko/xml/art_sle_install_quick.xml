@@ -8,13 +8,13 @@
 
 
  <title><citetitle>설치 빠른 시작</citetitle></title>
- <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase></subtitle>
+ <subtitle><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase></subtitle>
  <info>
-  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
+  <productnumber><phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase></productnumber><productname><phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase></productname><date>
 <?dbtimestamp format="Y"?>
 년 <?dbtimestamp format="B"?>
 월 <?dbtimestamp format="d"?>
-일 
+일
 </date>
   <abstract>
    <para>
@@ -23,7 +23,7 @@
 
    <para>
     다음 절차에 따라 <phrase role="productname"><phrase os="sled">SUSE® Linux Enterprise Desktop</phrase></phrase>
-    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>의 새 버전을 설치하십시오. 본 문서에서는 AMD64/Intel 64 아키텍처에서 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>의 기본 설치를 수행하는 방법에 대해 간략하게 설명합니다.
+    <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>의 새 버전을 설치하십시오. 본 문서에서는 AMD64/Intel 64 아키텍처에서 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>의 기본 설치를 수행하는 방법에 대해 간략하게 설명합니다.
    </para>
   </abstract>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
@@ -121,7 +121,7 @@
      <para>
       하나 이상의 네트워크 인터페이스를 구성한 후 SCC(SUSE Customer Center: SUSE 고객 센터)에 시스템을 등록할 수 있습니다. SCC 계정에 연결된 전자 메일 주소와 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>의 등록 코드를 입력합니다. 제품 업데이트를 가져오고 기술 지원을 받으려면 등록해야 합니다. <guimenu>다음</guimenu>을 눌러 계속합니다.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -149,7 +149,7 @@
      <para>
       시스템을 등록한 후 SUSE 고객 센터에서 <phrase role="productname"><phrase os="sled">SUSE Linux Enterprise Desktop</phrase></phrase>에 사용할 수 있는 모듈 및 확장의 목록이 YaST에 표시됩니다. 목록에는 SUSE Linux Enterprise SDK와 같은 무료 모듈 및 유료 등록 키가 필요한 확장이 포함됩니다. 항목을 클릭하면 설명이 표시됩니다. 또는 확인 표시를 활성화하여 설치할 모듈 또는 확장을 선택합니다. <guimenu>다음</guimenu>을 눌러 계속합니다.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <textobject role="description"><phrase>확장 선택</phrase>
@@ -190,7 +190,7 @@
       </mediaobject>
      </informalfigure>
     </step>
-    
+
     <step>
      <para>
       시스템에 제안된 파티션 설정을 검토합니다. 필요한 경우 제안된 파티션 설정을 변경합니다. 다음과 같은 옵션이 있습니다.
@@ -258,7 +258,7 @@
       로컬 사용자를 생성하려면 <guimenu>사용자 전체 이름</guimenu> 필드에 성과 이름을 입력하고, <guimenu>사용자 이름</guimenu> 필드에 로그인 이름을 입력하고, <guimenu>비밀번호</guimenu> 필드에 비밀번호를 입력합니다.
      </para>
      <para>
-      비밀번호는 8자 이상이어야 하며 대소문자와 숫자를 모두 포함해야 합니다. 비밀번호의 최대 길이는 72자이고 대소문자를 구분합니다. 
+      비밀번호는 8자 이상이어야 하며 대소문자와 숫자를 모두 포함해야 합니다. 비밀번호의 최대 길이는 72자이고 대소문자를 구분합니다.
      </para>
      <para>
       보안상의 이유로 <guimenu>자동 로그인</guimenu>을 <emphasis>비활성화</emphasis>하는 것이 좋습니다. 또한 이 비밀번호를 시스템 관리자용으로 사용<emphasis>하지 </emphasis> <guimenu>말고</guimenu> 다음 설치 단계에서 별도의 <systemitem class="username">root</systemitem> 비밀번호를 제공해야 합니다. <guimenu>다음</guimenu>을 눌러 계속합니다.
@@ -333,7 +333,7 @@
         </para>
        </listitem>
       </varlistentry>
-      
+
       <varlistentry>
        <term><guimenu>기본 시스템 대상 및 서비스</guimenu>
        </term>
@@ -353,7 +353,7 @@
        </listitem>
       </varlistentry>
      </variablelist>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -369,7 +369,7 @@
      <para>
       <guimenu>설치 설정</guimenu> 화면에서 시스템 구성을 완료한 후 <guimenu>설치</guimenu>를 클릭합니다. 어떤 소프트웨어를 선택하는가에 따라 설치 확인 화면이 팝업되기 이전에 사용권 계약에 동의해야 할 수도 있습니다. 이 시점까지는 시스템이 변경되지 않은 상태입니다. <guimenu>설치</guimenu>를 다시 클릭하면 설치 프로세스가 시작됩니다.
      </para>
-     
+
      <informalfigure os="sled">
       <mediaobject>
        <imageobject role="fo">
@@ -395,7 +395,7 @@
        </imageobject>
       </mediaobject>
      </informalfigure>
-     
+
     </step>
     <step>
      <para>

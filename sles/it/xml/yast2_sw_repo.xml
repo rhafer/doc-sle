@@ -11,7 +11,7 @@
 
  <para>
 
-  Per installare software di terze parti, aggiungere ulteriori archivi software al sistema. Per default, dopo la registrazione del sistema, vengono automaticamente configurati gli archivi dei prodotti, ad esempio <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP4</phrase></phrase>, e un archivio degli aggiornamenti corrispondente. <phrase os="sles;sled"> Per ulteriori informazioni sulla registrazione, vedere <xref linkend="sec.i.yast2.conf.manual.cc"/> o <xref linkend="sec.update.registersystem"/></phrase>. A seconda del prodotto inizialmente selezionato, è possibile che venga configurato un archivio aggiuntivo contenente traduzioni, dizionari e così via.
+  Per installare software di terze parti, aggiungere ulteriori archivi software al sistema. Per default, dopo la registrazione del sistema, vengono automaticamente configurati gli archivi dei prodotti, ad esempio <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase>-DVD <phrase role="productnumber"><phrase os="sles;sled;slerte">12 SP5</phrase></phrase>, e un archivio degli aggiornamenti corrispondente. <phrase os="sles;sled"> Per ulteriori informazioni sulla registrazione, vedere <xref linkend="sec.i.yast2.conf.manual.cc"/> o <xref linkend="sec.update.registersystem"/></phrase>. A seconda del prodotto inizialmente selezionato, è possibile che venga configurato un archivio aggiuntivo contenente traduzioni, dizionari e così via.
  </para>
 
  <para>

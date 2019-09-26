@@ -48,7 +48,7 @@
    下面的过程介绍如何从 DVD 引导，不过，您也可以使用其他本地安装媒体，例如 USB 大容量储存设备上的 ISO 映像。要选择的媒体和引导方法取决于系统体系结构，以及计算机使用的是传统的 BIOS 还是 UEFI。
   </para>
   <procedure xml:id="pro.update.sle12.offline.dvd">
-   <title>从 SLE 11 SP4 手动升级到 SLE 12 SP4</title>
+   <title>从 SLE 11 SP4 手动升级到 SLE 12 SP5</title>
    <step>
     <para>
      选择并准备引导媒体，请参见<xref linkend="sec.i.yast2.startup"/>。
@@ -56,7 +56,7 @@
    </step>
    <step>
     <para>
-     插入 SUSE Linux Enterprise 12 SP4 安装媒体的 DVD 1 并引导计算机。<guimenu>欢迎</guimenu>屏幕即会显示，接着是引导屏幕。
+     插入 SUSE Linux Enterprise 12 SP5 安装媒体的 DVD 1 并引导计算机。<guimenu>欢迎</guimenu>屏幕即会显示，接着是引导屏幕。
     </para>
    </step>
    <step>
@@ -118,7 +118,7 @@
 
     <step>
      <para>
-      插入 SUSE Linux Enterprise 12 SP4 安装媒体的 DVD 1 并引导计算机。<guimenu>欢迎</guimenu>屏幕即会显示，接着是引导屏幕。
+      插入 SUSE Linux Enterprise 12 SP5 安装媒体的 DVD 1 并引导计算机。<guimenu>欢迎</guimenu>屏幕即会显示，接着是引导屏幕。
      </para>
     </step>
     <step>
@@ -146,7 +146,7 @@
     </step>
     <step>
      <para>
-      设置 TFTP 服务器，以保存通过 PXE 引导所需的引导映象。为此，请使用 SUSE Linux Enterprise 12 SP4 安装媒体的 DVD 1，或者遵循<xref linkend="sec.deployment.prep_boot.tftp"/>中的指导。
+      设置 TFTP 服务器，以保存通过 PXE 引导所需的引导映象。为此，请使用 SUSE Linux Enterprise 12 SP5 安装媒体的 DVD 1，或者遵循<xref linkend="sec.deployment.prep_boot.tftp"/>中的指导。
      </para>
     </step>
     <step>
@@ -277,13 +277,13 @@
   <para>
    SUSE Manager 是一个服务器解决方案，用于提供适用于 SUSE Linux Enterprise 客户端的更新、增补程序和安全修复。它随附了一套工具和基于 Web 的用户界面，用于执行管理任务。有关 SUSE Manager 的详细信息，请参见 <link xlink:href="https://www.suse.com/products/suse-manager/"/>。
   </para>
-  
+
   <para>
    SUSE Manager 可为您提供 SP 迁移或完整系统升级支持。
   </para>
 
   <variablelist>
-   
+
    <varlistentry>
     <term>SP 迁移</term>
     <listitem>

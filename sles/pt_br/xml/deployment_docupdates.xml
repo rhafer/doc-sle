@@ -19,7 +19,7 @@ title="Profiling step"?>
  </para>
 
 <itemizedlist>
-  
+
  <listitem>
   <para>
    <xref linkend="sec.deployment.docupdates.sle12_sp4" xrefstyle="SectTitleOnPage"/>
@@ -100,11 +100,11 @@ title="Profiling step"?>
      </para>
     </listitem>
    </varlistentry>
-   
+
   </variablelist>
  </sect1>
- 
- 
+
+
  <sect1 xml:id="sec.deployment.docupdates.sle12_sp3_maint2">
   <title>Setembro de 2018 (Versão de Manutenção da Documentação)</title>
 
@@ -431,7 +431,7 @@ title="Profiling step"?>
  <sect1 xml:id="sec.deployment.docupdates.sle12_sp2">
   <title>Novembro de 2016 (Versão Inicial do <phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> 12 SP2)</title>
 
-  
+
 
   <xi:include href="common_docupdates_sp2_i.xml"/>
 

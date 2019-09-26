@@ -8,7 +8,7 @@
   </dm:docmanager>
  </info>
  <para>
-  このガイドでは、<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP4</phrase></phrase>でストレージデバイスを管理する方法を説明します。デバイスのパーティショニングと管理については、<xref linkend="cha.advdisk"/>を参照してください。このガイドは、システム管理者を対象としています。
+  このガイドでは、<phrase role="productname"><phrase os="sles">SUSE Linux Enterprise Server</phrase></phrase> <phrase role="productnumber"><phrase os="sles;sled;slerte"> 12 SP5</phrase></phrase>でストレージデバイスを管理する方法を説明します。デバイスのパーティショニングと管理については、<xref linkend="cha.advdisk"/>を参照してください。このガイドは、システム管理者を対象としています。
  </para>
  <xi:include href="common_intro_available_doc_i.xml"/>
  <xi:include href="common_intro_feedback_i.xml"/>

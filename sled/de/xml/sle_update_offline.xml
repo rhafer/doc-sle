@@ -48,7 +48,7 @@
    Im nachfolgenden Verfahren wird das Booten von DVD beschrieben. Sie können jedoch auch ein anderes lokales Installationsmedium verwenden, z. B. ein ISO-Image auf einem USB-Massenspeichergerät. Das Medium und die Bootmethode sind abhängig von der Systemarchitektur und von der Ausstattung des Systems (herkömmliches BIOS oder UEFI).
   </para>
   <procedure xml:id="pro.update.sle12.offline.dvd">
-   <title>Manuelle Aufrüstung von SLE 11 SP4 auf SLE 12 SP4</title>
+   <title>Manuelle Aufrüstung von SLE 11 SP4 auf SLE 12 SP5</title>
    <step>
     <para>
      Wählen Sie ein Bootmedium aus und bereiten Sie es vor, siehe <xref linkend="sec.i.yast2.startup"/>.
@@ -277,13 +277,13 @@
   <para>
    SUSE Manager ist eine Serverlösung für die Bereitstellung von Aktualisierungen, Patches und Sicherheitsreparaturen für SUSE Linux Enterprise-Clients. Hier finden Sie eine Reihe von Werkzeugen und eine webgestützte Bedienoberfläche für Verwaltungsaufgaben. Weitere Informationen zu SUSE Manager finden Sie unter <link xlink:href="https://www.suse.com/products/suse-manager/"/>.
   </para>
-  
+
   <para>
    SUSE Manager unterstützt Sie bei einer SP-Migration oder bei einer kompletten Systemaufrüstung.
   </para>
 
   <variablelist>
-   
+
    <varlistentry>
     <term>SP-Migration</term>
     <listitem>
